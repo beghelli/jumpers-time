@@ -1,0 +1,5 @@
+Players control a ball and race against time in multiple phases full of platforms. To move between platforms players must run and jump. If they touch any platform side other then the top, a small amount of time is increased on their final phase completion time. Players can control the ball left and right and can jump. The jump speed increases based on the time players charge the jump (press the jump button and wait before releasing it).
+
+Each phase has a target completion time to be considered completed and the next phase opens only if players managed to complete the current one in a time equal or lower then the target one. To complete the phase players must get the ball to the last platform of the phase.
+
+Another game aspect that can be implemented is the evolution of the ball that the player controls. The ball characteristics (movement and jump speed and acceleration, bounce time, friction) could be improved over time and experience, but they would need to be decreasced when the ball gets older. The player could have many balls at the same time, so it could start “training” younger balls to replace the older ones.

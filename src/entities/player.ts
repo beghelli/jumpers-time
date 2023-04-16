@@ -4,10 +4,11 @@ export default class Player extends Phaser.Physics.Arcade.Sprite
 {
 
 	cursors: Phaser.Types.Input.Keyboard.CursorKeys;
-	accelerationConstant: integer = 600;
-	jumpMaxChargeDuration: number = 250;
-	jumpMaxVelocity: number = 400;
-	currentJumpVelocity: number = 0;
+	accelerationConstant: number = 600;
+	bounceValue: number = 0.25;
+	jumpMaxChargeDuration: number = 300;
+	jumpMaxVelocity: number = 450;
+	jumpIgnoreCharge: boolean = false;
 
 	constructor(scene, x, y, cursors)
 	{
@@ -23,8 +24,6 @@ export default class Player extends Phaser.Physics.Arcade.Sprite
 
 	create()
 	{
-		this.setCollideWorldBounds(true);
-		this.setBounce(0.15);
 		this.setMaxVelocity(300, 10000);
 		this.setDragX(this.accelerationConstant * 2);
 
@@ -53,6 +52,7 @@ export default class Player extends Phaser.Physics.Arcade.Sprite
 			key: 'jumpCharge',
 			frames: this.anims.generateFrameNumbers('player', { start: 10, end: 23 }),
 			duration: this.jumpMaxChargeDuration,
+			yoyo: true,
 			repeat: 0
 		});
 
@@ -60,57 +60,76 @@ export default class Player extends Phaser.Physics.Arcade.Sprite
 
 	update()
 	{
-		let performingAction: boolean = false;
+		this.setBounce(this.bounceValue);
+		let isAcceleratingX: boolean = false;
+		let jumped: boolean = false;
+		if (this.cursors.up.isUp)
+		{
+			this.jumpIgnoreCharge = false;
+		}
+
+		if (this.cursors.up.isDown && ! this.jumpIgnoreCharge)
+		{
+			this.anims.play('jumpCharge', true);
+		}
+
+		let isChargingJump: boolean = this.anims.isPlaying && this.anims.currentAnim.key === "jumpCharge";
+		let reachedMaximumJumpVelocity: boolean = isChargingJump && this.anims.currentFrame.index === this.anims.currentAnim.getLastFrame().index;
+
+		if (isChargingJump && (this.cursors.up.isUp || reachedMaximumJumpVelocity))
+		{
+			if (reachedMaximumJumpVelocity)
+			{
+				this.jumpIgnoreCharge = true; // Stops charging jump again until user releases the up key.
+			}
+
+			if (this.body.blocked.down)
+			{
+				let jumpVelocity: number = Math.round((this.jumpMaxVelocity / this.anims.currentAnim.getTotalFrames()) * this.anims.currentFrame.index);
+				this.setVelocityY(jumpVelocity * -1);
+				jumped = true;
+				isChargingJump = false;
+				console.log(jumpVelocity);
+			}
+		}
+
 		if (this.cursors.left.isDown)
 		{
 			this.setAccelerationX(this.accelerationConstant * -1);
-			if (! this.anims.currentAnim || this.anims.currentAnim.key !== 'jumpCharge')
+			if (! isChargingJump)
 			{
 				this.anims.play('left', true);
 			}
-			performingAction = true;
+			isAcceleratingX = true;
 		}
 		else if (this.cursors.right.isDown)
 		{
 			this.setAccelerationX(this.accelerationConstant);
-			if (! this.anims.currentAnim || this.anims.currentAnim.key !== 'jumpCharge')
+			if (! isChargingJump)
 			{
 				this.anims.play('right', true);
 			}
-			performingAction = true;
+			isAcceleratingX = true;
 		}
 
-		if (this.cursors.up.isDown && this.body.touching.down)
+		if (jumped && this.cursors.up.isDown)
 		{
-			this.anims.play('jumpCharge', true);
-			this.currentJumpVelocity += Math.round((this.jumpMaxVelocity / this.jumpMaxChargeDuration) * this.scene.game.loop.delta);
-			performingAction = true;
+			this.jumpIgnoreCharge = true;
 		}
 
-		let reachedMaximumJumpVelocity: boolean = this.currentJumpVelocity >= this.jumpMaxVelocity;
-
-		if (this.currentJumpVelocity && (
-			this.cursors.up.isUp || reachedMaximumJumpVelocity))
+		if (! isAcceleratingX)
 		{
-			if (reachedMaximumJumpVelocity)
-			{
-				this.currentJumpVelocity = this.jumpMaxVelocity;
-			}
-
-			if (this.body.touching.down)
-			{
-				this.setVelocityY(this.currentJumpVelocity * -1);
-				console.log(this.currentJumpVelocity);
-			}
-			this.currentJumpVelocity = 0;
-			performingAction = false;
+			this.setAccelerationX(0);
 		}
 
-		if (! performingAction || (! this.body.touching.down && this.anims.currentAnim.key == 'jumpCharge'))
+		if (! isAcceleratingX && ! isChargingJump)
 		{
 			this.anims.play('turn');
-			this.setAccelerationX(0);
-			this.currentJumpVelocity = 0;
+		}
+
+		if (isChargingJump)
+		{
+			this.setBounce(0);
 		}
 	}
 

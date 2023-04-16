@@ -14,72 +14,40 @@ export default class Roll extends Phaser.Scene
 
     preload()
     {
-		this.load.image('platform1', 'assets/platform1.png');
 		const cursors = this.input.keyboard.createCursorKeys();
-		this.player = new Player(this, 100, -50, cursors);
+		this.player = new Player(this, 0, 0, cursors);
 		this.player.preload();
+		this.player.depth = 99;
+
+		this.load.image("tiles", "assets/mapTiles.png");
+  		this.load.tilemapTiledJSON("map", "assets/tilemaps/level1.json");
     }
 
     create()
     {
 		this.cameras.main.setBackgroundColor('#000000');
+		this.cameras.main.startFollow(this.player, true, 0.05, 0.05, 0, 100);
 
 		this.add.existing(this.player);
 		this.physics.add.existing(this.player);
 		this.player.create();
 
-		let platform = this.add.tileSprite(100, 500, 200, 36, 'platform1');
-		this.lastPlatformAddedTime = this.sys.game.loop.time - 1000;
+		const map = this.make.tilemap({ key: "map" });
+		const tileset = map.addTilesetImage("jumpersTime", "tiles");
+		this.cameras.main.setBounds(0, 0, map.widthInPixels, map.heightInPixels);
 
-		this.platforms = this.physics.add.group();
-		this.platforms.add(platform);
+		const worldLayer = map.createLayer("World", tileset, 0, 0);
+		worldLayer.setCollisionByProperty({ collides: true });
+		this.physics.add.collider(this.player, worldLayer);
 
-		// @ts-ignore
-		platform.body.setAllowGravity(false);
-
-		// @ts-ignore
-		platform.body.setImmovable(true);
-
-		// @ts-ignore
-		//platform.body.setVelocity(0,35);
-		this.physics.add.collider(this.player, this.platforms);
-    }
+		const playerSpawnPoint = map.findObject("Entities", obj => obj.name === "Player");
+		this.player.x = playerSpawnPoint.x;
+		this.player.y = playerSpawnPoint.y;
+	}
 
 	update()
 	{
 		this.player.update();
-
-		this.managePlatforms();
-	}
-
-	managePlatforms()
-	{
-		const addPlatformInterval: number = 3000;
-
-		if (this.sys.game.loop.time >= this.lastPlatformAddedTime + addPlatformInterval)
-		{
-			this.lastPlatformAddedTime = this.sys.game.loop.time;
-			this.addNewPlatform();
-		}
-	}
-
-	addNewPlatform()
-	{
-		const platformWidth = 200;
-		const platformHeight = 36;
-		const x: number = Phaser.Math.Between(platformWidth / 2, this.sys.game.canvas.width - platformWidth / 2);
-		const y: number = -1 * platformHeight;
-
-		let platform = this.add.tileSprite(x, y, platformWidth, platformHeight, 'platform1');
-		this.platforms.add(platform);
-		// @ts-ignore
-		platform.body.setAllowGravity(false);
-
-		// @ts-ignore
-		platform.body.setImmovable(true);
-
-		// @ts-ignore
-		platform.body.setVelocity(0,35);
 	}
 
 }

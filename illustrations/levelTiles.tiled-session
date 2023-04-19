@@ -3,18 +3,34 @@
         "height": 4300,
         "width": 2
     },
-    "activeFile": "",
+    "activeFile": "tiles/level1.tmx",
     "expandedProjectPaths": [
+        ".",
+        "tiles"
     ],
+    "file.lastUsedOpenFilter": "All Files (*)",
     "fileStates": {
         "": {
-            "scaleInDock": 1
+            "scaleInDock": 1,
+            "scaleInEditor": 1
         },
         "tiles/jumpersTime.tsx": {
             "scaleInDock": 1,
             "scaleInEditor": 16
         },
+        "tiles/level1.tmx": {
+            "scale": 0.33,
+            "selectedLayer": 1,
+            "viewCenter": {
+                "x": -6.0606060606060055,
+                "y": 1071.2121212121212
+            }
+        },
         "tiles/level1.tmx#jumpersTime": {
+            "scaleInEditor": 1
+        },
+        "tiles/level1.tmx#mapTiles": {
+            "scaleInDock": 1,
             "scaleInEditor": 1
         }
     },
@@ -27,15 +43,18 @@
     "map.tileWidth": 16,
     "map.width": 40,
     "openFiles": [
+        "tiles/level1.tmx"
     ],
     "project": "levelTiles.tiled-project",
     "property.type": "bool",
     "recentFiles": [
+        "tiles/level1.tmx",
         "tiles/jumpersTime.tsx"
     ],
+    "tileset.embedInMap": true,
     "tileset.lastUsedFormat": "tsx",
     "tileset.tileSize": {
-        "height": 16,
-        "width": 16
+        "height": 32,
+        "width": 32
     }
 }

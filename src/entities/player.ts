@@ -7,7 +7,7 @@ export default class Player extends Phaser.Physics.Arcade.Sprite
 	accelerationConstant: number = 600;
 	bounceValue: number = 0.25;
 	jumpMaxChargeDuration: number = 300;
-	jumpMaxVelocity: number = 450;
+	jumpMaxVelocity: number = 650;
 	jumpIgnoreCharge: boolean = false;
 
 	constructor(scene, x, y, cursors)
@@ -131,6 +131,11 @@ export default class Player extends Phaser.Physics.Arcade.Sprite
 		{
 			this.setBounce(0);
 		}
+	}
+
+	moved(): boolean
+	{
+		return this.cursors.up.isDown || this.cursors.left.isDown || this.cursors.right.isDown;
 	}
 
 }

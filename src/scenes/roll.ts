@@ -1,11 +1,16 @@
 import * as Phaser from 'phaser';
 import Player from '../entities/player';
+import Timer from '../entities/timer';
 
 export default class Roll extends Phaser.Scene
 {
-	platforms: Phaser.Physics.Arcade.Group;
 	player: Player;
-	lastPlatformAddedTime: number;
+	timer: Timer;
+	cursors: Phaser.Types.Input.Keyboard.CursorKeys;
+	startTime: number;
+	completionTime: number;
+	playerFinished: boolean;
+	playerStarted: boolean;
 
 	constructor()
     {
@@ -14,8 +19,8 @@ export default class Roll extends Phaser.Scene
 
     preload()
     {
-		const cursors = this.input.keyboard.createCursorKeys();
-		this.player = new Player(this, 0, 0, cursors);
+		this.cursors = this.input.keyboard.createCursorKeys();
+		this.player = new Player(this, 0, 0, this.cursors);
 		this.player.preload();
 		this.player.depth = 99;
 
@@ -25,6 +30,9 @@ export default class Roll extends Phaser.Scene
 
     create()
     {
+		this.playerFinished = false;
+		this.playerStarted = false;
+
 		this.cameras.main.setBackgroundColor('#000000');
 		this.cameras.main.startFollow(this.player, true, 0.05, 0.05, 0, 100);
 
@@ -38,16 +46,54 @@ export default class Roll extends Phaser.Scene
 
 		const worldLayer = map.createLayer("World", tileset, 0, 0);
 		worldLayer.setCollisionByProperty({ collides: true });
+		worldLayer.setTileIndexCallback([5,6], this.touchesFinalFlags, this);
 		this.physics.add.collider(this.player, worldLayer);
 
 		const playerSpawnPoint = map.findObject("Entities", obj => obj.name === "Player");
 		this.player.x = playerSpawnPoint.x;
 		this.player.y = playerSpawnPoint.y;
+
+		this.timer = new Timer(this, this.sys.game.canvas.width / 2, this.sys.game.canvas.height - 30);
 	}
 
-	update()
+	update(gameTime: number)
 	{
+		if (this.cursors.shift.isDown)
+		{
+			this.scene.restart();
+		}
+
 		this.player.update();
+
+		let completionTime: number = this.calculateCompletionTime(gameTime);
+		this.timer.update(completionTime);
+	}
+
+	calculateCompletionTime(time: number): number
+	{
+		if (! this.playerStarted && this.player.moved())
+		{
+			this.playerStarted = true;
+		}
+
+		if (! this.playerStarted)
+		{
+			this.startTime = time;
+		}
+		else
+		{
+			if (! this.playerFinished)
+			{
+				this.completionTime = time - this.startTime;
+			}
+		}
+
+		return this.completionTime;
+	}
+
+	touchesFinalFlags()
+	{
+		this.playerFinished = true;
 	}
 
 }

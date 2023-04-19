@@ -9,6 +9,7 @@ export default class Timer extends Phaser.GameObjects.Text
 		super(scene, x, y, "", defaultStyle);
 		this.setOrigin(0.5);
 		this.setScrollFactor(0);
+		this.setDepth(1000);
 		scene.add.existing(this);
 	}
 

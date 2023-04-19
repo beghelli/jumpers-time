@@ -41,13 +41,22 @@ export default class Roll extends Phaser.Scene
 		this.player.create();
 
 		const map = this.make.tilemap({ key: "map" });
-		const tileset = map.addTilesetImage("jumpersTime", "tiles");
+		const tileset = map.addTilesetImage("mapTiles", "tiles");
 		this.cameras.main.setBounds(0, 0, map.widthInPixels, map.heightInPixels);
 
 		const worldLayer = map.createLayer("World", tileset, 0, 0);
 		worldLayer.setCollisionByProperty({ collides: true });
 		worldLayer.setTileIndexCallback([5,6], this.touchesFinalFlags, this);
 		this.physics.add.collider(this.player, worldLayer);
+
+		map.createLayer("Clouds", tileset, 0, 0);
+		const treesBackLayer = map.createLayer("TreesBack", tileset, 0, 0);
+		treesBackLayer.setDepth(1);
+		map.createLayer("TreesFront", tileset, 0, 0);
+		map.createLayer("Borders", tileset, 0, 0);
+
+		const frontLayer = map.createLayer("Front", tileset, 0, 0);
+		frontLayer.depth = 100;
 
 		const playerSpawnPoint = map.findObject("Entities", obj => obj.name === "Player");
 		this.player.x = playerSpawnPoint.x;

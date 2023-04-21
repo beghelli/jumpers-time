@@ -41,6 +41,10 @@ export default class Roll extends Phaser.Scene
 		this.player.create();
 
 		const map = this.make.tilemap({ key: "map" });
+		this.physics.world.setBounds(0, 0, map.widthInPixels, map.heightInPixels);
+		this.physics.world.setBoundsCollision(true, true, false, false);
+		this.player.setCollideWorldBounds(true);
+
 		const tileset = map.addTilesetImage("mapTiles", "tiles");
 		this.cameras.main.setBounds(0, 0, map.widthInPixels, map.heightInPixels);
 

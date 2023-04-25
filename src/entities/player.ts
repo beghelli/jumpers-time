@@ -89,7 +89,6 @@ export default class Player extends Phaser.Physics.Arcade.Sprite
 				this.setVelocityY(jumpVelocity * -1);
 				jumped = true;
 				isChargingJump = false;
-				console.log(jumpVelocity);
 			}
 		}
 

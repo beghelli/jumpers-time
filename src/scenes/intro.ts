@@ -1,4 +1,5 @@
 import * as Phaser from 'phaser';
+import BlinkText from '../entities/blinkText';
 
 export default class Intro extends Phaser.Scene
 {
@@ -15,23 +16,11 @@ export default class Intro extends Phaser.Scene
     create()
     {
     	this.add.image(400, 300, 'logo');
-		let text = this.add.text(300, 450, 'Press ENTER to start!');
-		text.alpha = 0;
+		new BlinkText(this, this.sys.game.canvas.width / 2, 450, 'Press ENTER to start!', 250);
 
-		this.tweens.add({
-			targets: text,
-			duration: 250,
-			hold: 750,
-			yoyo: true,
-			repeat: -1,
-			props: {
-				alpha: 1
-			}
-		});
-
-		this.input.keyboard.on('keydown-ENTER', function(event)
+		this.input.keyboard.on('keydown-ENTER', function()
 		{
-			this.scene.start('roll');
+			this.scene.start('stageSelection');
 		}, this);
     }
 

@@ -1,19 +1,29 @@
 import * as Phaser from 'phaser';
+import { defaultPrimaryShadowStyle } from '../fontStyles';
 
 export default class Timer extends Phaser.GameObjects.Text
 {
 
-	constructor(scene: Phaser.Scene, x: number, y: number)
+	constructor(scene: Phaser.Scene, x: number, y: number, time: number | null)
 	{
-		const defaultStyle: Phaser.Types.GameObjects.Text.TextStyle = {strokeThickness: 0.5, fontSize: 20, shadow: { offsetX: 1, offsetY: 1, blur: 1, color: '#000', fill: true }};
-		super(scene, x, y, "", defaultStyle);
+		super(scene, x, y, "", defaultPrimaryShadowStyle);
 		this.setOrigin(0.5);
 		this.setScrollFactor(0);
 		this.setDepth(1000);
 		scene.add.existing(this);
+
+		if (time)
+		{
+			this.setTime(time);
+		}
 	}
 
 	update(time: number)
+	{
+		this.setTime(time);
+	}
+
+	setTime(time: number)
 	{
 		let seconds: number = Math.floor(time/1000);
 		let minutes: number = Math.floor(seconds / 60);

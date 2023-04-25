@@ -1,6 +1,8 @@
 import * as Phaser from 'phaser';
 import Player from '../entities/player';
 import Timer from '../entities/timer';
+import { RollSceneData, StageData } from '../types';
+import { stagesData } from '../stagesData';
 
 export default class Roll extends Phaser.Scene
 {
@@ -11,11 +13,17 @@ export default class Roll extends Phaser.Scene
 	completionTime: number;
 	playerFinished: boolean;
 	playerStarted: boolean;
+	stageData: StageData;
 
 	constructor()
     {
         super('roll');
     }
+
+	init (currentStageData: RollSceneData)
+	{
+		this.stageData = stagesData.filter((data) => { return data.id == currentStageData.stageId })[0];
+	}
 
     preload()
     {
@@ -25,7 +33,7 @@ export default class Roll extends Phaser.Scene
 		this.player.depth = 99;
 
 		this.load.image("tiles", "assets/mapTiles.png");
-  		this.load.tilemapTiledJSON("map", "assets/tilemaps/level1.json");
+  		this.load.tilemapTiledJSON("map", "assets/tilemaps/" + this.stageData.tilemapJson);
     }
 
     create()
@@ -66,7 +74,7 @@ export default class Roll extends Phaser.Scene
 		this.player.x = playerSpawnPoint.x;
 		this.player.y = playerSpawnPoint.y;
 
-		this.timer = new Timer(this, this.sys.game.canvas.width / 2, this.sys.game.canvas.height - 30);
+		this.timer = new Timer(this, this.sys.game.canvas.width / 2, this.sys.game.canvas.height - 30, 0);
 	}
 
 	update(gameTime: number)

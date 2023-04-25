@@ -1,8 +1,10 @@
 import * as Phaser from 'phaser';
 import Intro from './scenes/intro';
+import StageSelection from './scenes/stageSelection';
 import Roll from './scenes/roll';
 
 const intro = new Intro();
+const stageSelection = new StageSelection();
 const roll = new Roll();
 
 const config = {
@@ -18,7 +20,7 @@ const config = {
           }
       },
     scene: [
-		intro, roll
+		intro, stageSelection, roll
 	]
 };
 

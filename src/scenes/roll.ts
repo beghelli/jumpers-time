@@ -53,7 +53,7 @@ export default class Roll extends Phaser.Scene
 		this.physics.world.setBoundsCollision(true, true, false, false);
 		this.player.setCollideWorldBounds(true);
 
-		const tileset = map.addTilesetImage("mapTiles", "tiles");
+		const tileset = map.addTilesetImage("forest", "tiles");
 		this.cameras.main.setBounds(0, 0, map.widthInPixels, map.heightInPixels);
 
 		const worldLayer = map.createLayer("World", tileset, 0, 0);
@@ -65,7 +65,6 @@ export default class Roll extends Phaser.Scene
 		const treesBackLayer = map.createLayer("TreesBack", tileset, 0, 0);
 		treesBackLayer.setDepth(1);
 		map.createLayer("TreesFront", tileset, 0, 0);
-		map.createLayer("Borders", tileset, 0, 0);
 
 		const frontLayer = map.createLayer("Front", tileset, 0, 0);
 		frontLayer.depth = 100;

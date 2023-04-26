@@ -3,7 +3,7 @@
         "height": 4300,
         "width": 2
     },
-    "activeFile": "tiles/level1.tmx",
+    "activeFile": "tiles/level3.tmx",
     "expandedProjectPaths": [
         ".",
         "tiles"
@@ -14,17 +14,31 @@
             "scaleInDock": 1,
             "scaleInEditor": 1
         },
+        "/home/beghelli/dev/jumpersTime/dist/assets/tilemaps/forest.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "tiles/forest.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
         "tiles/jumpersTime.tsx": {
             "scaleInDock": 1,
-            "scaleInEditor": 16
+            "scaleInEditor": 1
         },
         "tiles/level1.tmx": {
+            "expandedObjectLayers": [
+                7
+            ],
             "scale": 0.33,
-            "selectedLayer": 1,
+            "selectedLayer": 5,
             "viewCenter": {
-                "x": -6.0606060606060055,
-                "y": 1071.2121212121212
+                "x": 1372.7272727272727,
+                "y": 428.78787878787887
             }
+        },
+        "tiles/level1.tmx#forest": {
+            "scaleInDock": 1
         },
         "tiles/level1.tmx#jumpersTime": {
             "scaleInEditor": 1
@@ -32,26 +46,64 @@
         "tiles/level1.tmx#mapTiles": {
             "scaleInDock": 1,
             "scaleInEditor": 1
+        },
+        "tiles/level2.tmx": {
+            "scale": 1,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 425,
+                "y": 1651.5
+            }
+        },
+        "tiles/level2.tmx#forest": {
+            "scaleInDock": 1
+        },
+        "tiles/level2.tmx#jumpersTime": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "tiles/level3.tmx": {
+            "expandedObjectLayers": [
+                2
+            ],
+            "scale": 1,
+            "selectedLayer": 3,
+            "viewCenter": {
+                "x": 1338,
+                "y": 780.5
+            }
+        },
+        "tiles/level3.tmx#forest": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
         }
     },
     "last.exportedFilePath": "/home/beghelli/dev/jumpersTime/dist/assets/tilemaps",
+    "last.externalTilesetPath": "/home/beghelli/dev/jumpersTime/illustrations/tiles",
     "last.imagePath": "/home/beghelli/dev/jumpersTime/dist/assets",
     "map.height": 60,
     "map.lastUsedExportFilter": "JSON map files (*.tmj *.json)",
     "map.lastUsedFormat": "tmx",
-    "map.tileHeight": 16,
-    "map.tileWidth": 16,
-    "map.width": 40,
+    "map.tileHeight": 32,
+    "map.tileWidth": 32,
+    "map.width": 60,
     "openFiles": [
-        "tiles/level1.tmx"
+        "tiles/level3.tmx",
+        "tiles/level1.tmx",
+        "tiles/level2.tmx"
     ],
     "project": "levelTiles.tiled-project",
     "property.type": "bool",
     "recentFiles": [
+        "tiles/level2.tmx",
         "tiles/level1.tmx",
+        "tiles/level3.tmx",
+        "tiles/forest.tsx",
+        "/home/beghelli/dev/jumpersTime/dist/assets/tilemaps/forest.tsx",
         "tiles/jumpersTime.tsx"
     ],
     "tileset.embedInMap": true,
+    "tileset.lastUsedFilter": "Tiled tileset files (*.tsx *.xml)",
     "tileset.lastUsedFormat": "tsx",
     "tileset.tileSize": {
         "height": 32,

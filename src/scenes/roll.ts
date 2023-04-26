@@ -33,7 +33,7 @@ export default class Roll extends Phaser.Scene
 		this.player.depth = 99;
 
 		this.load.image("tiles", "assets/mapTiles.png");
-  		this.load.tilemapTiledJSON("map", "assets/tilemaps/" + this.stageData.tilemapJson);
+  		this.load.tilemapTiledJSON(this.stageData.id, "assets/tilemaps/" + this.stageData.tilemapJson);
     }
 
     create()
@@ -48,7 +48,7 @@ export default class Roll extends Phaser.Scene
 		this.physics.add.existing(this.player);
 		this.player.create();
 
-		const map = this.make.tilemap({ key: "map" });
+		const map = this.make.tilemap({ key: this.stageData.id });
 		this.physics.world.setBounds(0, 0, map.widthInPixels, map.heightInPixels);
 		this.physics.world.setBoundsCollision(true, true, false, false);
 		this.player.setCollideWorldBounds(true);
@@ -74,6 +74,16 @@ export default class Roll extends Phaser.Scene
 		this.player.y = playerSpawnPoint.y;
 
 		this.timer = new Timer(this, this.sys.game.canvas.width / 2, this.sys.game.canvas.height - 30, 0);
+
+		const pauseGameCallback = () =>
+		{
+			this.scene.pause(this.scene.key);
+			this.scene.launch('paused');
+			this.scene.bringToTop('paused');
+		};
+
+		this.input.keyboard.on('keydown-ESC', pauseGameCallback);
+		this.input.keyboard.on('keydown-P', pauseGameCallback);
 	}
 
 	update(gameTime: number)

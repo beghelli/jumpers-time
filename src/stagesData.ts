@@ -7,7 +7,7 @@ export const stagesData: StageData[] = [
 		thumbnailExtension: '.png',
 		thumbnailHeight: 210,
 		tilemapJson: 'level1.json',
-		targetCompletionTimes: [22000,17500,13000]
+		targetCompletionTimes: [25000,15000,8000]
 	},
 	{
 		id: 'stage2',
@@ -15,7 +15,7 @@ export const stagesData: StageData[] = [
 		thumbnailExtension: '.png',
 		thumbnailHeight: 210,
 		tilemapJson: 'level2.json',
-		targetCompletionTimes: [33000,25500,17500]
+		targetCompletionTimes: [35000,25000,15000]
 	},
 	{
 		id: 'stage3',
@@ -23,6 +23,6 @@ export const stagesData: StageData[] = [
 		thumbnailExtension: '.png',
 		thumbnailHeight: 210,
 		tilemapJson: 'level3.json',
-		targetCompletionTimes: [45000,31500,20000]
+		targetCompletionTimes: [75000,60000,45000]
 	}
 ];

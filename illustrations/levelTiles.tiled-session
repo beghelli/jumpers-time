@@ -3,10 +3,10 @@
         "height": 4300,
         "width": 2
     },
-    "activeFile": "tiles/level3.tmx",
+    "activeFile": "tiles/level2.tmx",
     "expandedProjectPaths": [
-        ".",
-        "tiles"
+        "tiles",
+        "."
     ],
     "file.lastUsedOpenFilter": "All Files (*)",
     "fileStates": {
@@ -51,8 +51,8 @@
             "scale": 1,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 425,
-                "y": 1651.5
+                "x": 412,
+                "y": 780.5
             }
         },
         "tiles/level2.tmx#forest": {
@@ -95,9 +95,9 @@
     "project": "levelTiles.tiled-project",
     "property.type": "bool",
     "recentFiles": [
-        "tiles/level2.tmx",
-        "tiles/level1.tmx",
         "tiles/level3.tmx",
+        "tiles/level1.tmx",
+        "tiles/level2.tmx",
         "tiles/forest.tsx",
         "/home/beghelli/dev/jumpersTime/dist/assets/tilemaps/forest.tsx",
         "tiles/jumpersTime.tsx"

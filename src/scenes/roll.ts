@@ -3,6 +3,7 @@ import Player from '../entities/player';
 import Timer from '../entities/timer';
 import { RollSceneData, StageData } from '../types';
 import { stagesData } from '../stagesData';
+import {defaultPrimaryShadowStyle} from '../fontStyles';
 
 export default class Roll extends Phaser.Scene
 {
@@ -73,7 +74,13 @@ export default class Roll extends Phaser.Scene
 		this.player.x = playerSpawnPoint.x;
 		this.player.y = playerSpawnPoint.y;
 
-		this.timer = new Timer(this, this.sys.game.canvas.width / 2, this.sys.game.canvas.height - 30, 0);
+		const centerX = this.sys.game.canvas.width / 2;
+		this.timer = new Timer(this, centerX, this.sys.game.canvas.height - 45, 0);
+		const restartText = new Phaser.GameObjects.Text(this, centerX, this.timer.y + 20, 'Press SHIFT to restart stage!', defaultPrimaryShadowStyle);
+		restartText.setOrigin(0.5);
+		restartText.setScrollFactor(0);
+		restartText.depth = 10001;
+		this.add.existing(restartText);
 
 		const pauseGameCallback = () =>
 		{

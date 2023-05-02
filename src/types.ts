@@ -2,6 +2,11 @@ export interface RollSceneData {
 	stageId: string;
 }
 
+export interface StageResultData {
+	stageId: string;
+	completionTime: number;
+}
+
 export interface StageData {
 	id: string,
 	thumbnailName: string,

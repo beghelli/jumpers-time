@@ -2,7 +2,7 @@ import * as Phaser from 'phaser';
 import Player from '../entities/player';
 import Timer from '../entities/timer';
 import { RollSceneData, StageData } from '../types';
-import { stagesData } from '../stagesData';
+import { getStageDataById } from '../stagesData';
 import {defaultPrimaryShadowStyle} from '../fontStyles';
 
 export default class Roll extends Phaser.Scene
@@ -23,7 +23,7 @@ export default class Roll extends Phaser.Scene
 
 	init (currentStageData: RollSceneData)
 	{
-		this.stageData = stagesData.filter((data) => { return data.id == currentStageData.stageId })[0];
+		this.stageData = getStageDataById(currentStageData.stageId);
 	}
 
     preload()
@@ -79,7 +79,8 @@ export default class Roll extends Phaser.Scene
 		const restartText = new Phaser.GameObjects.Text(this, centerX, this.timer.y + 20, 'Press SHIFT to restart stage!', defaultPrimaryShadowStyle);
 		restartText.setOrigin(0.5);
 		restartText.setScrollFactor(0);
-		restartText.depth = 10001;
+		restartText.depth = 1001;
+		restartText.setName('restartText');
 		this.add.existing(restartText);
 
 		const pauseGameCallback = () =>
@@ -131,6 +132,12 @@ export default class Roll extends Phaser.Scene
 	touchesFinalFlags()
 	{
 		this.playerFinished = true;
+
+		this.timer.destroy();
+		this.children.getByName('restartText').destroy();
+
+		this.scene.pause(this.scene.key);
+		this.scene.launch('stageResult', {stageId: this.stageData.id, completionTime: this.completionTime});
 	}
 
 }

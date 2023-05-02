@@ -26,3 +26,8 @@ export const stagesData: StageData[] = [
 		targetCompletionTimes: [75000,60000,45000]
 	}
 ];
+
+export const getStageDataById = (stageId: string) =>
+{
+	return stagesData.filter((data) => { return data.id == stageId })[0];
+}

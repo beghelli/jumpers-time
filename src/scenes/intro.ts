@@ -20,7 +20,7 @@ export default class Intro extends Phaser.Scene
 
 		this.input.keyboard.on('keydown-ENTER', function()
 		{
-			this.scene.start('stageSelection');
+			this.scene.start('showStageSelection');
 		}, this);
     }
 

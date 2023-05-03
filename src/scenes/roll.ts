@@ -4,6 +4,7 @@ import Timer from '../entities/timer';
 import { RollSceneData, StageData } from '../types';
 import { getStageDataById } from '../stagesData';
 import {defaultPrimaryShadowStyle} from '../fontStyles';
+import StageCompletionTimeRecord from '../models/StageCompletionTimeRecord';
 
 export default class Roll extends Phaser.Scene
 {
@@ -137,7 +138,10 @@ export default class Roll extends Phaser.Scene
 		this.children.getByName('restartText').destroy();
 
 		this.scene.pause(this.scene.key);
-		this.scene.launch('stageResult', {stageId: this.stageData.id, completionTime: this.completionTime});
+
+		const completionTimeRecord = StageCompletionTimeRecord.build(this.stageData.id);
+		completionTimeRecord.data.time = this.completionTime;
+		this.scene.launch('showStageResult', {completionTimeRecord: completionTimeRecord});
 	}
 
 }

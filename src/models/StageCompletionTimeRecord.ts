@@ -1,14 +1,14 @@
 import BaseModel from './baseModel';
-import {PlayerStageCompletionTimeData} from '../types';
+import {StageCompletionTimeRecordData} from '../types';
 
-export default class PlayerStageCompletionTime extends BaseModel
+export default class StageCompletionTimeRecord extends BaseModel
 {
 
-	data: PlayerStageCompletionTimeData;
+	data: StageCompletionTimeRecordData;
 
 	static build(stageId: string)
 	{
-		const completionTime = new PlayerStageCompletionTime();
+		const completionTime = new StageCompletionTimeRecord();
 		completionTime.data['stageId'] = stageId;
 
 		const data = completionTime.load();
@@ -27,8 +27,8 @@ export default class PlayerStageCompletionTime extends BaseModel
 
 	setAttributes(data: Object): void
 	{
-		const castedData = data as PlayerStageCompletionTimeData;
-		this.data['completionTime'] = castedData.completionTime;
+		const castedData = data as StageCompletionTimeRecordData;
+		this.data['time'] = castedData.time;
 		this.data['stageId'] = castedData.stageId;
 	}
 }

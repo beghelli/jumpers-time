@@ -1,10 +1,11 @@
+import StageCompletionTimeRecord from "./models/StageCompletionTimeRecord";
+
 export interface RollSceneData {
 	stageId: string;
 }
 
 export interface StageResultData {
-	stageId: string;
-	completionTime: number;
+	completionTimeRecord: StageCompletionTimeRecord;
 }
 
 export interface StageData {
@@ -16,8 +17,8 @@ export interface StageData {
 	targetCompletionTimes: number[],
 }
 
-export interface PlayerStageCompletionTimeData {
-	completionTime: number,
+export interface StageCompletionTimeRecordData {
+	time: number,
 	stageId: string,
 }
 

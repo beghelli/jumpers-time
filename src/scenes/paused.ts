@@ -41,7 +41,7 @@ export default class Roll extends Phaser.Scene
 		{
 			this.scene.stop(this.scene.key);
 			this.scene.stop('roll');
-			this.scene.launch('stageSelection');
+			this.scene.launch('showStageSelection');
 		});
 	}
 

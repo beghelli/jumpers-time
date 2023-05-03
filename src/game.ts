@@ -1,15 +1,15 @@
 import * as Phaser from 'phaser';
 import Intro from './scenes/intro';
-import StageSelection from './scenes/stageSelection';
+import ShowStageSelection from './scenes/showStageSelection';
 import Roll from './scenes/roll';
 import Paused from './scenes/paused';
-import StageResult from './scenes/stageResult';
+import ShowStageResult from './scenes/showStageResult';
 
 const intro = new Intro();
-const stageSelection = new StageSelection();
+const stageSelection = new ShowStageSelection();
 const roll = new Roll();
 const paused = new Paused();
-const stageResult = new StageResult();
+const showStageResult = new ShowStageResult();
 
 const config = {
     type: Phaser.CANVAS,
@@ -22,7 +22,7 @@ const config = {
           }
       },
     scene: [
-		intro, stageSelection, roll, paused, stageResult
+		intro, stageSelection, roll, paused, showStageResult
 	],
 	scale             : {
 		mode            : Phaser.Scale.FIT,

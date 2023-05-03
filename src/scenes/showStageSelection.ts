@@ -4,15 +4,17 @@ import StarContainer from '../entities/starContainer';
 import BlinkText from '../entities/blinkText';
 import { stagesData } from '../stagesData';
 import {StageData} from '../types';
+import {defaultPrimaryShadowStyle} from '../fontStyles';
+import StageCompletionTimeRecord from '../models/StageCompletionTimeRecord';
 
-export default class StageSelection extends Phaser.Scene
+export default class ShowStageSelection extends Phaser.Scene
 {
 	currentSelectedStageId: string;
 	thumbnailYDistance: number = 25;
 
 	constructor()
     {
-        super('stageSelection');
+        super('showStageSelection');
     }
 
     preload()
@@ -53,14 +55,14 @@ export default class StageSelection extends Phaser.Scene
 		});
 
 		const selectStageText = this.add.text(this.sys.game.canvas.width / 2, 50, "SELECT A STAGE");
-		selectStageText.setOrigin(0.5, 0.5);
-		selectStageText.setScrollFactor(0, 0);
-
-		const targetCompletionTimesText = this.add.text(432, 123, 'Target completion times');
-		targetCompletionTimesText.setScrollFactor(0,0);
+		selectStageText.setOrigin(0.5);
+		selectStageText.setScrollFactor(0,0);
 
 		const starColumnXPosition: number = 432;
 		const textColumnXPosition: number = starColumnXPosition + 100;
+
+		const targetCompletionTimesText = this.add.text(starColumnXPosition, 123, 'Target completion times');
+		targetCompletionTimesText.setScrollFactor(0,0);
 
 		let timeLineYPosition: number = 153;
 		const targetTimeOneStar = new Timer(this, textColumnXPosition, timeLineYPosition, 0);
@@ -75,10 +77,16 @@ export default class StageSelection extends Phaser.Scene
 		new StarContainer(this, starColumnXPosition, timeLineYPosition, 2);
 
 		timeLineYPosition += 30;
-		const targetTimeThreeStar = new Timer(this, textColumnXPosition, 213, 0);
+		const targetTimeThreeStar = new Timer(this, textColumnXPosition, timeLineYPosition, 0);
 		targetTimeThreeStar.setOrigin(0,0);
 		targetTimeThreeStar.setName('targetTimeText2');
 		new StarContainer(this, starColumnXPosition, timeLineYPosition, 3);
+
+		const bestPersonalTimeTitle = this.add.text(starColumnXPosition, targetTimeThreeStar.y + 60, 'Best Personal Time');
+		bestPersonalTimeTitle.setScrollFactor(0,0);
+		const bestPersonalTime = new Timer(this, starColumnXPosition, bestPersonalTimeTitle.y + 30, null, defaultPrimaryShadowStyle);
+		bestPersonalTime.setOrigin(0,0);
+		bestPersonalTime.setName('bestPersonalTimeTimer');
 
 		const startText = new BlinkText(this, this.sys.game.canvas.width / 2, 550, 'Press ENTER to start the selected stage!', 250);
 		startText.setScrollFactor(0,0);
@@ -105,25 +113,25 @@ export default class StageSelection extends Phaser.Scene
 		this.currentSelectedStageId = stageId;
 		stagesData.forEach((stage) =>
 		{
-			const thumbImage = this.children.getByName(stage.thumbnailName);
+			const thumbImage = this.children.getByName(stage.thumbnailName) as Phaser.GameObjects.Image;
 			if (stage.id !== this.currentSelectedStageId)
 			{
-				//@ts-ignore
 				thumbImage.setAlpha(0.5);
 			}
 			else
 			{
-				//@ts-ignore
 				this.cameras.main.pan(thumbImage.x + thumbImage.width - 5, thumbImage.y + thumbImage.height - 38, 500, 'Cubic', true);
-				//@ts-ignore
 				thumbImage.setAlpha(1);
 
 				stage.targetCompletionTimes.forEach((time, index) =>
 				{
-					const timer = this.children.getByName('targetTimeText' + index);
-					//@ts-ignore
+					const timer = this.children.getByName('targetTimeText' + index) as Timer;
 					timer.setTime(time);
 				});
+
+				const bestTimeTimer = this.children.getByName('bestPersonalTimeTimer') as Timer;
+				const bestTimeRecord = StageCompletionTimeRecord.build(stage.id);
+				bestTimeTimer.setTime(bestTimeRecord.data.time);
 			}
 		});
 	}

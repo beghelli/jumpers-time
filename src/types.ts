@@ -15,3 +15,9 @@ export interface StageData {
 	tilemapJson: string,
 	targetCompletionTimes: number[],
 }
+
+export interface PlayerStageCompletionTimeData {
+	completionTime: number,
+	stageId: string,
+}
+

@@ -34,12 +34,13 @@ export default class Roll extends Phaser.Scene
 		this.player.preload();
 		this.player.depth = 99;
 
-		this.load.image("tiles", "assets/mapTiles.png");
-  		this.load.tilemapTiledJSON(this.stageData.id, "assets/tilemaps/" + this.stageData.tilemapJson);
+		this.load.image('tiles', 'assets/mapTiles.png');
+  		this.load.tilemapTiledJSON(this.stageData.id, 'assets/tilemaps/' + this.stageData.tilemapJson);
     }
 
     create()
     {
+		this.sound.stopAll();
 		this.playerFinished = false;
 		this.playerStarted = false;
 

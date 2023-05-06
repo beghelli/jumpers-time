@@ -1,4 +1,5 @@
 import * as Phaser from 'phaser';
+import {JumpSoundConfig} from '../types';
 
 export default class Player extends Phaser.Physics.Arcade.Sprite
 {
@@ -9,8 +10,14 @@ export default class Player extends Phaser.Physics.Arcade.Sprite
 	jumpMaxChargeDuration: number = 300;
 	jumpMaxVelocity: number = 650;
 	jumpIgnoreCharge: boolean = false;
+	jumpSoundsConfig: JumpSoundConfig[]= [
+		{ key: 'jump1', file: 'jump1.mp3', jumpVelocityPercentageLimit: 50 },
+		{ key: 'jump2', file: 'jump2.mp3', jumpVelocityPercentageLimit: 65 },
+		{ key: 'jump3', file: 'jump3.mp3', jumpVelocityPercentageLimit: 85 },
+		{ key: 'jump4', file: 'jump4.mp3', jumpVelocityPercentageLimit: 100 },
+	];
 
-	constructor(scene, x, y, cursors)
+	constructor(scene: Phaser.Scene, x: number, y: number, cursors: Phaser.Types.Input.Keyboard.CursorKeys)
 	{
 		super(scene, x, y, null);
 		this.cursors = cursors;
@@ -19,11 +26,13 @@ export default class Player extends Phaser.Physics.Arcade.Sprite
 	preload()
 	{
 		this.scene.load.spritesheet('player', 'assets/player.png', {frameWidth: 33, frameHeight: 33});
+		this.loadJumpSounds();
 		this.setTexture('player');
 	}
 
 	create()
 	{
+		this.addJumpSounds();
 		this.setMaxVelocity(300, 10000);
 		this.setDragX(this.accelerationConstant * 2);
 
@@ -87,6 +96,7 @@ export default class Player extends Phaser.Physics.Arcade.Sprite
 			{
 				let jumpVelocity: number = Math.round((this.jumpMaxVelocity / this.anims.currentAnim.getTotalFrames()) * this.anims.currentFrame.index);
 				this.setVelocityY(jumpVelocity * -1);
+				this.playJumpSound(jumpVelocity);
 				jumped = true;
 				isChargingJump = false;
 			}
@@ -135,6 +145,39 @@ export default class Player extends Phaser.Physics.Arcade.Sprite
 	moved(): boolean
 	{
 		return this.cursors.up.isDown || this.cursors.left.isDown || this.cursors.right.isDown;
+	}
+
+	private loadJumpSounds()
+	{
+		for (const jumpConfig of this.jumpSoundsConfig)
+		{
+			this.scene.load.audio(jumpConfig.key, 'assets/' + jumpConfig.file);
+		}
+	}
+
+	private addJumpSounds()
+	{
+		for (const jumpConfig of this.jumpSoundsConfig)
+		{
+			this.scene.sound.add(jumpConfig.key, {loop: false});
+		}
+	}
+
+	private playJumpSound(jumpVelocity: number)
+	{
+		const jumpMaxVelocityPercentage: number = jumpVelocity * 100 / this.jumpMaxVelocity;
+		let jumpSoundKey = '';
+
+		for (const jumpConfig of this.jumpSoundsConfig)
+		{
+			if (jumpMaxVelocityPercentage <= jumpConfig.jumpVelocityPercentageLimit)
+			{
+				jumpSoundKey = jumpConfig.key;
+				break;
+			}
+		}
+
+		this.scene.sound.play(jumpSoundKey);
 	}
 
 }

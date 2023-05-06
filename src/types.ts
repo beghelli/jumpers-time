@@ -22,3 +22,8 @@ export interface StageCompletionTimeRecordData {
 	stageId: string,
 }
 
+export interface JumpSoundConfig {
+	key: string,
+	file: string,
+	jumpVelocityPercentageLimit: number,
+}

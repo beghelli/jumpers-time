@@ -5,8 +5,8 @@
     },
     "activeFile": "tiles/level2.tmx",
     "expandedProjectPaths": [
-        "tiles",
-        "."
+        ".",
+        "tiles"
     ],
     "file.lastUsedOpenFilter": "All Files (*)",
     "fileStates": {
@@ -30,11 +30,11 @@
             "expandedObjectLayers": [
                 7
             ],
-            "scale": 0.33,
+            "scale": 0.5,
             "selectedLayer": 5,
             "viewCenter": {
-                "x": 1372.7272727272727,
-                "y": 428.78787878787887
+                "x": 1758,
+                "y": 383
             }
         },
         "tiles/level1.tmx#forest": {
@@ -47,16 +47,25 @@
             "scaleInDock": 1,
             "scaleInEditor": 1
         },
+        "tiles/level12.tmx": {
+            "scale": 1,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 3402,
+                "y": 398.5
+            }
+        },
         "tiles/level2.tmx": {
             "scale": 1,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 412,
-                "y": 780.5
+                "x": 3474,
+                "y": 346.5
             }
         },
         "tiles/level2.tmx#forest": {
-            "scaleInDock": 1
+            "scaleInDock": 1,
+            "scaleInEditor": 1
         },
         "tiles/level2.tmx#jumpersTime": {
             "scaleInDock": 1,
@@ -69,36 +78,46 @@
             "scale": 1,
             "selectedLayer": 3,
             "viewCenter": {
-                "x": 1338,
-                "y": 780.5
+                "x": 958,
+                "y": 957.5
             }
         },
         "tiles/level3.tmx#forest": {
             "scaleInDock": 1,
             "scaleInEditor": 1
+        },
+        "tiles/level4.tmx": {
+            "scale": 0.446796875,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 960.167861514251,
+                "y": 961.2869382759225
+            }
+        },
+        "tiles/level4.tmx#forest": {
+            "scaleInDock": 1
         }
     },
     "last.exportedFilePath": "/home/beghelli/dev/jumpersTime/dist/assets/tilemaps",
     "last.externalTilesetPath": "/home/beghelli/dev/jumpersTime/illustrations/tiles",
     "last.imagePath": "/home/beghelli/dev/jumpersTime/dist/assets",
-    "map.height": 60,
+    "map.height": 19,
     "map.lastUsedExportFilter": "JSON map files (*.tmj *.json)",
     "map.lastUsedFormat": "tmx",
     "map.tileHeight": 32,
     "map.tileWidth": 32,
-    "map.width": 60,
+    "map.width": 120,
     "openFiles": [
-        "tiles/level3.tmx",
-        "tiles/level1.tmx",
         "tiles/level2.tmx"
     ],
     "project": "levelTiles.tiled-project",
     "property.type": "bool",
     "recentFiles": [
+        "tiles/forest.tsx",
+        "tiles/level2.tmx",
+        "tiles/level4.tmx",
         "tiles/level3.tmx",
         "tiles/level1.tmx",
-        "tiles/level2.tmx",
-        "tiles/forest.tsx",
         "/home/beghelli/dev/jumpersTime/dist/assets/tilemaps/forest.tsx",
         "tiles/jumpersTime.tsx"
     ],

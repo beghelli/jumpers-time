@@ -36,4 +36,10 @@
    <property name="collides" type="bool" value="true"/>
   </properties>
  </tile>
+ <tile id="35">
+  <properties>
+   <property name="boostSpeed" type="bool" value="true"/>
+   <property name="collides" type="bool" value="true"/>
+  </properties>
+ </tile>
 </tileset>

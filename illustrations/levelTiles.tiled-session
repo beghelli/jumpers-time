@@ -31,10 +31,10 @@
                 7
             ],
             "scale": 0.5,
-            "selectedLayer": 5,
+            "selectedLayer": 0,
             "viewCenter": {
-                "x": 1758,
-                "y": 383
+                "x": 1754,
+                "y": 381
             }
         },
         "tiles/level1.tmx#forest": {
@@ -57,10 +57,10 @@
         },
         "tiles/level2.tmx": {
             "scale": 1,
-            "selectedLayer": 0,
+            "selectedLayer": 2,
             "viewCenter": {
-                "x": 3474,
-                "y": 346.5
+                "x": 501,
+                "y": 680.5
             }
         },
         "tiles/level2.tmx#forest": {
@@ -76,10 +76,10 @@
                 2
             ],
             "scale": 1,
-            "selectedLayer": 3,
+            "selectedLayer": 0,
             "viewCenter": {
-                "x": 958,
-                "y": 957.5
+                "x": 956,
+                "y": 955.5
             }
         },
         "tiles/level3.tmx#forest": {
@@ -113,8 +113,8 @@
     "project": "levelTiles.tiled-project",
     "property.type": "bool",
     "recentFiles": [
-        "tiles/forest.tsx",
         "tiles/level2.tmx",
+        "tiles/forest.tsx",
         "tiles/level4.tmx",
         "tiles/level3.tmx",
         "tiles/level1.tmx",

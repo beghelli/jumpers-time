@@ -32,7 +32,7 @@ export default class Roll extends Phaser.Scene
 		this.cursors = this.input.keyboard.createCursorKeys();
 		this.player = new Player(this, 0, 0, this.cursors);
 		this.player.preload();
-		this.player.depth = 99;
+		this.player.depth = 200;
 
 		this.load.image('tiles', 'assets/mapTiles.png');
   		this.load.tilemapTiledJSON(this.stageData.id, 'assets/tilemaps/' + this.stageData.tilemapJson);
@@ -62,6 +62,8 @@ export default class Roll extends Phaser.Scene
 		const worldLayer = map.createLayer("World", tileset, 0, 0);
 		worldLayer.setCollisionByProperty({ collides: true });
 		worldLayer.setTileIndexCallback([5,6], this.touchesFinalFlags, this);
+		worldLayer.setTileIndexCallback([36], this.touchesSpeedBoost, this);
+		worldLayer.depth = 2;
 		this.physics.add.collider(this.player, worldLayer);
 
 		map.createLayer("Clouds", tileset, 0, 0);
@@ -71,6 +73,9 @@ export default class Roll extends Phaser.Scene
 
 		const frontLayer = map.createLayer("Front", tileset, 0, 0);
 		frontLayer.depth = 100;
+
+		const backLayer = map.createLayer("Back", tileset, 0, 0);
+		backLayer.depth = 1;
 
 		const playerSpawnPoint = map.findObject("Entities", obj => obj.name === "Player");
 		this.player.x = playerSpawnPoint.x;
@@ -96,14 +101,14 @@ export default class Roll extends Phaser.Scene
 		this.input.keyboard.on('keydown-P', pauseGameCallback);
 	}
 
-	update(gameTime: number)
+	update(gameTime: number, delta: number)
 	{
 		if (this.cursors.shift.isDown)
 		{
 			this.scene.restart();
 		}
 
-		this.player.update();
+		this.player.update(gameTime, delta);
 
 		let completionTime: number = this.calculateCompletionTime(gameTime);
 		this.timer.update(completionTime);
@@ -143,6 +148,13 @@ export default class Roll extends Phaser.Scene
 		const completionTimeRecord = StageCompletionTimeRecord.build(this.stageData.id);
 		completionTimeRecord.data.time = this.completionTime;
 		this.scene.launch('showStageResult', {completionTimeRecord: completionTimeRecord});
+	}
+
+	touchesSpeedBoost(player: Player, tile: Phaser.Tilemaps.Tile)
+	{
+		const body = this.player.body as Phaser.Physics.Arcade.Body;
+		this.player.setMaxVelocity(this.player.maxVelocityReference.x * 3, this.player.maxVelocityReference.y);
+		this.player.setVelocityX(body.maxVelocity.x);
 	}
 
 }

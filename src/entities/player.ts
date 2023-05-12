@@ -6,6 +6,7 @@ export default class Player extends Phaser.Physics.Arcade.Sprite
 
 	cursors: Phaser.Types.Input.Keyboard.CursorKeys;
 	accelerationConstant: number = 600;
+	maxVelocityReference: Phaser.Math.Vector2 = new Phaser.Math.Vector2(300, 10000);
 	bounceValue: number = 0.25;
 	jumpMaxChargeDuration: number = 300;
 	jumpMaxVelocity: number = 650;
@@ -33,7 +34,7 @@ export default class Player extends Phaser.Physics.Arcade.Sprite
 	create()
 	{
 		this.addJumpSounds();
-		this.setMaxVelocity(300, 10000);
+		this.setMaxVelocity(this.maxVelocityReference.x, this.maxVelocityReference.y);
 		this.setDragX(this.accelerationConstant * 2);
 
 		 //  Our player animations, turning, walking left and walking right.
@@ -67,7 +68,7 @@ export default class Player extends Phaser.Physics.Arcade.Sprite
 
 	}
 
-	update()
+	update(gameTime: number, delta: number)
 	{
 		this.setBounce(this.bounceValue);
 		let isAcceleratingX: boolean = false;
@@ -139,6 +140,16 @@ export default class Player extends Phaser.Physics.Arcade.Sprite
 		if (isChargingJump)
 		{
 			this.setBounce(0);
+		}
+
+		const body = this.body as Phaser.Physics.Arcade.Body;
+		if (body.maxVelocity.x > this.maxVelocityReference.x)
+		{
+			body.setMaxVelocity(body.maxVelocity.x - (delta / 3), this.maxVelocityReference.y);
+		}
+		else
+		{
+			this.setMaxVelocity(this.maxVelocityReference.x, this.maxVelocityReference.y);
 		}
 	}
 

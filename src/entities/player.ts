@@ -8,6 +8,7 @@ export default class Player extends Phaser.Physics.Arcade.Sprite
 	accelerationConstant: number = 600;
 	maxVelocityReference: Phaser.Math.Vector2 = new Phaser.Math.Vector2(300, 10000);
 	bounceValue: number = 0.25;
+	bloomFx: Phaser.FX.Bloom;
 	jumpMaxChargeDuration: number = 300;
 	jumpMaxVelocity: number = 650;
 	jumpIgnoreCharge: boolean = false;
@@ -33,6 +34,8 @@ export default class Player extends Phaser.Physics.Arcade.Sprite
 
 	create()
 	{
+		this.bloomFx = this.preFX.addBloom(0xffffff, 0, 0, 1, 2, 6);
+		this.bloomFx.active = false;
 		this.addJumpSounds();
 		this.setMaxVelocity(this.maxVelocityReference.x, this.maxVelocityReference.y);
 		this.setDragX(this.accelerationConstant * 2);
@@ -65,7 +68,6 @@ export default class Player extends Phaser.Physics.Arcade.Sprite
 			yoyo: true,
 			repeat: 0
 		});
-
 	}
 
 	update(gameTime: number, delta: number)
@@ -146,10 +148,21 @@ export default class Player extends Phaser.Physics.Arcade.Sprite
 		if (body.maxVelocity.x > this.maxVelocityReference.x)
 		{
 			body.setMaxVelocity(body.maxVelocity.x - (delta / 3), this.maxVelocityReference.y);
+			const velocityBasedNumber = (Math.abs(body.velocity.x / 1000));
+			this.bloomFx.active = true;
+			this.bloomFx.offsetX = velocityBasedNumber * 1.55;
+
+			const blurVelocityBasedStrength = velocityBasedNumber * 1.8;
+			if (blurVelocityBasedStrength >= 1)
+			{
+				this.bloomFx.blurStrength = blurVelocityBasedStrength;
+				this.bloomFx.strength = blurVelocityBasedStrength;
+			}
 		}
 		else
 		{
 			this.setMaxVelocity(this.maxVelocityReference.x, this.maxVelocityReference.y);
+			this.bloomFx.active = false;
 		}
 	}
 

@@ -12,7 +12,7 @@ const paused = new Paused();
 const showStageResult = new ShowStageResult();
 
 const config = {
-    type: Phaser.CANVAS,
+    type: Phaser.WEBGL,
     backgroundColor: '#d8d700',
 	physics: {
           default: 'arcade',

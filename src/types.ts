@@ -5,7 +5,7 @@ export interface RollSceneData {
 }
 
 export interface StageResultData {
-	completionTimeRecord: StageCompletionTimeRecord;
+	completionTimeRecord: StageCompletionTimeRecord,
 }
 
 export interface StageData {

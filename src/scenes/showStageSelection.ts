@@ -88,14 +88,14 @@ export default class ShowStageSelection extends Phaser.Scene
 		bestPersonalTime.setOrigin(0,0);
 		bestPersonalTime.setName('bestPersonalTimeTimer');
 
-		const startText = new BlinkText(this, this.sys.game.canvas.width / 2, 550, 'Press ENTER to start the selected stage!', 250);
+		const startText = new BlinkText(this, this.sys.game.canvas.width / 2, 550, 'Click / tap to select and start the stage!', 250);
 		startText.setScrollFactor(0,0);
 
 		this.setCurrentStageId('stage1');
 
 		this.input.keyboard.on('keydown-ENTER', function()
 		{
-			this.scene.start('roll', { stageId: this.currentSelectedStageId });
+			this.startStage();
 		}, this);
 
 		this.input.keyboard.on('keydown-DOWN', () =>
@@ -110,6 +110,11 @@ export default class ShowStageSelection extends Phaser.Scene
 
 	setCurrentStageId(stageId: string)
 	{
+		if (this.currentSelectedStageId == stageId)
+		{
+			this.startStage();
+		}
+
 		this.currentSelectedStageId = stageId;
 		stagesData.forEach((stage) =>
 		{
@@ -154,6 +159,11 @@ export default class ShowStageSelection extends Phaser.Scene
 		}
 
 		return stageIdByIndex;
+	}
+
+	private startStage()
+	{
+		this.scene.start('roll', { stageId: this.currentSelectedStageId });
 	}
 
 }

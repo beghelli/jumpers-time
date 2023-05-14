@@ -3,8 +3,9 @@ import Player from '../entities/player';
 import Timer from '../entities/timer';
 import { RollSceneData, StageData } from '../types';
 import { getStageDataById } from '../stagesData';
-import {defaultPrimaryShadowStyle} from '../fontStyles';
 import StageCompletionTimeRecord from '../models/StageCompletionTimeRecord';
+import RestartControl from '../entities/restartControl';
+import QuitControl from '../entities/quitControl';
 
 export default class Roll extends Phaser.Scene
 {
@@ -32,18 +33,21 @@ export default class Roll extends Phaser.Scene
 		this.cursors = this.input.keyboard.createCursorKeys();
 		this.player = new Player(this, 0, 0, this.cursors);
 		this.player.preload();
-		this.player.depth = 200;
+		this.player.depth = 5;
 
 		this.load.image('tiles', 'assets/mapTiles.png');
 		this.load.image('mobileControlLeft', 'assets/mobile-control-left.png');
 		this.load.image('mobileControlRight', 'assets/mobile-control-right.png');
 		this.load.image('mobileControlUp', 'assets/mobile-control-up.png');
+		this.load.image('textRestart', 'assets/text-restart.png');
+		this.load.image('textQuit', 'assets/text-quit.png');
   		this.load.tilemapTiledJSON(this.stageData.id, 'assets/tilemaps/' + this.stageData.tilemapJson);
     }
 
     create()
     {
 		this.createMobileControls();
+		this.createInterfaceControls();
 		this.sound.stopAll();
 		this.playerFinished = false;
 		this.playerStarted = false;
@@ -70,10 +74,14 @@ export default class Roll extends Phaser.Scene
 		worldLayer.depth = 2;
 		this.physics.add.collider(this.player, worldLayer);
 
-		map.createLayer("Clouds", tileset, 0, 0);
+		const cloudsLayer = map.createLayer("Clouds", tileset, 0, 0);
+		cloudsLayer.depth = 3;
+
 		const treesBackLayer = map.createLayer("TreesBack", tileset, 0, 0);
-		treesBackLayer.setDepth(1);
-		map.createLayer("TreesFront", tileset, 0, 0);
+		treesBackLayer.depth = 4;
+
+		const treesFrontLayer = map.createLayer("TreesFront", tileset, 0, 0);
+		treesFrontLayer.depth = 6;
 
 		const frontLayer = map.createLayer("Front", tileset, 0, 0);
 		frontLayer.depth = 100;
@@ -87,12 +95,6 @@ export default class Roll extends Phaser.Scene
 
 		const centerX = this.sys.game.canvas.width / 2;
 		this.timer = new Timer(this, centerX, this.sys.game.canvas.height - 45, 0);
-		const restartText = new Phaser.GameObjects.Text(this, centerX, this.timer.y + 20, 'Press SHIFT to restart stage!', defaultPrimaryShadowStyle);
-		restartText.setOrigin(0.5);
-		restartText.setScrollFactor(0);
-		restartText.depth = 1001;
-		restartText.setName('restartText');
-		this.add.existing(restartText);
 
 		const pauseGameCallback = () =>
 		{
@@ -145,13 +147,14 @@ export default class Roll extends Phaser.Scene
 		this.playerFinished = true;
 
 		this.timer.destroy();
-		this.children.getByName('restartText').destroy();
 
 		this.scene.pause(this.scene.key);
 
 		const completionTimeRecord = StageCompletionTimeRecord.build(this.stageData.id);
 		completionTimeRecord.data.time = this.completionTime;
-		this.scene.launch('showStageResult', {completionTimeRecord: completionTimeRecord});
+		this.scene.launch('showStageResult', {
+			completionTimeRecord: completionTimeRecord,
+		});
 	}
 
 	touchesSpeedBoost(player: Player, tile: Phaser.Tilemaps.Tile)
@@ -161,7 +164,7 @@ export default class Roll extends Phaser.Scene
 		this.player.setVelocityX(body.maxVelocity.x);
 	}
 
-	createMobileControls()
+	private createMobileControls()
 	{
 		if (! this.sys.game.device.os.desktop)
 		{
@@ -188,6 +191,12 @@ export default class Roll extends Phaser.Scene
 			controlUp.on('pointerover', () => {this.cursors.up.isDown = true; this.cursors.up.isUp = false;}, this);
 			controlUp.on('pointerout', () => {this.cursors.up.isDown = false; this.cursors.up.isUp = true;}, this);
 		}
+	}
+
+	private createInterfaceControls()
+	{
+		new RestartControl(this);
+		new QuitControl(this);
 	}
 
 }

@@ -1,4 +1,6 @@
 import * as Phaser from 'phaser';
+import RestartControl from '../entities/restartControl';
+import QuitControl from '../entities/quitControl';
 import Timer from '../entities/timer';
 import {defaultPrimaryShadowStyle} from '../fontStyles';
 import StageCompletionTimeRecord from '../models/StageCompletionTimeRecord';
@@ -21,6 +23,8 @@ export default class ShowStageResult extends Phaser.Scene
 
 	create()
 	{
+		new RestartControl(this);
+		new QuitControl(this);
 		const canvasWidth = this.sys.game.canvas.width;
 		const centerWidth = canvasWidth / 2;
 		let fontStyle = {...defaultPrimaryShadowStyle};
@@ -41,13 +45,9 @@ export default class ShowStageResult extends Phaser.Scene
 			this.add.existing(newRecordText);
 		}
 
-		const completionText = new Phaser.GameObjects.Text(this, centerWidth, timer.y + 50, 'You completed the stage! Press ENTER to select another', defaultPrimaryShadowStyle);
+		const completionText = new Phaser.GameObjects.Text(this, centerWidth, timer.y + 50, 'You completed the stage!', defaultPrimaryShadowStyle);
 		completionText.setOrigin(0.5);
 		this.add.existing(completionText);
-
-		const restartText = new Phaser.GameObjects.Text(this, centerWidth, completionText.y + 25, 'or press SHIFT to restart this stage.', defaultPrimaryShadowStyle);
-		restartText.setOrigin(0.5);
-		this.add.existing(restartText);
 
 		this.input.keyboard.on('keydown-ENTER', () =>
 		{

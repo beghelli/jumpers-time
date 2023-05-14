@@ -22,12 +22,15 @@ export default class Intro extends Phaser.Scene
 		const centerX = this.sys.game.canvas.width / 2;
 
 		this.add.image(centerX, 300, 'logo');
-		new BlinkText(this, centerX, 450, 'Press ENTER to start!', 250);
+		const text = new BlinkText(this, centerX, 450, 'Click / Tap here to start!', 250);
+		text.setInteractive();
+		text.on('pointerdown', () => { this.startSelectStageScene(); }, this);
+		this.input.keyboard.on('keydown-ENTER', () => {	this.startSelectStageScene(); }, this);
+	}
 
-		this.input.keyboard.on('keydown-ENTER', function()
-		{
-			this.scene.start('showStageSelection');
-		}, this);
+	startSelectStageScene()
+	{
+		this.scene.start('showStageSelection');
 	}
 
 }

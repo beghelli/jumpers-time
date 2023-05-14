@@ -58,7 +58,7 @@ export default class ShowStageSelection extends Phaser.Scene
 		selectStageText.setOrigin(0.5);
 		selectStageText.setScrollFactor(0,0);
 
-		const starColumnXPosition: number = 432;
+		const starColumnXPosition: number = this.sys.game.canvas.width / 2 + 50;
 		const textColumnXPosition: number = starColumnXPosition + 100;
 
 		const targetCompletionTimesText = this.add.text(starColumnXPosition, 123, 'Target completion times');

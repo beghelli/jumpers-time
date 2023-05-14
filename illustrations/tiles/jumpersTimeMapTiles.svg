@@ -24,15 +24,15 @@
      inkscape:pagecheckerboard="0"
      inkscape:document-units="mm"
      showgrid="false"
-     inkscape:zoom="1"
-     inkscape:cx="319.09227"
-     inkscape:cy="939.28543"
+     inkscape:zoom="0.35355339"
+     inkscape:cx="-308.08323"
+     inkscape:cy="1084.9722"
      inkscape:window-width="1366"
      inkscape:window-height="731"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
-     inkscape:current-layer="layer4"
+     inkscape:current-layer="layer1"
      inkscape:lockguides="true"
      showguides="true"
      inkscape:guide-bbox="true">
@@ -89,7 +89,17 @@
   <g
      inkscape:groupmode="layer"
      id="layer4"
-     inkscape:label="Layer 3" />
+     inkscape:label="Layer 3"
+     style="display:none"
+     sodipodi:insensitive="true">
+    <rect
+       style="fill:#73120e;fill-opacity:1;stroke-width:0.636796"
+       id="rect290709"
+       width="26.355106"
+       height="19.075083"
+       x="31.360878"
+       y="269.13989" />
+  </g>
   <g
      inkscape:groupmode="layer"
      id="layer3"
@@ -883,6 +893,1206 @@
        x="119.65226"
        y="249.19754"
        inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-restart.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#4d4d4d;fill-opacity:1;stroke-width:0.11333"
+       id="rect290115"
+       width="0.52916527"
+       height="0.52916527"
+       x="33.121136"
+       y="273.12851"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-restart.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#4d4d4d;fill-opacity:1;stroke-width:0.11333"
+       id="rect290117"
+       width="0.52916527"
+       height="0.52916527"
+       x="33.121136"
+       y="273.65765"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-restart.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#4d4d4d;fill-opacity:1;stroke-width:0.11333"
+       id="rect290119"
+       width="0.52916527"
+       height="0.52916527"
+       x="33.121136"
+       y="274.18683"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-restart.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#4d4d4d;fill-opacity:1;stroke-width:0.11333"
+       id="rect290121"
+       width="0.52916527"
+       height="0.52916527"
+       x="33.121136"
+       y="274.716"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-restart.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#4d4d4d;fill-opacity:1;stroke-width:0.11333"
+       id="rect290123"
+       width="0.52916527"
+       height="0.52916527"
+       x="33.121136"
+       y="275.24518"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-restart.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#4d4d4d;fill-opacity:1;stroke-width:0.11333"
+       id="rect290125"
+       width="0.52916527"
+       height="0.52916527"
+       x="33.121136"
+       y="275.77432"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-restart.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#4d4d4d;fill-opacity:1;stroke-width:0.11333"
+       id="rect290127"
+       width="0.52916527"
+       height="0.52916527"
+       x="33.121136"
+       y="276.3035"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-restart.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#4d4d4d;fill-opacity:1;stroke-width:0.11333"
+       id="rect290129"
+       width="0.52916527"
+       height="0.52916527"
+       x="33.650303"
+       y="276.3035"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-restart.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#4d4d4d;fill-opacity:1;stroke-width:0.11333"
+       id="rect290131"
+       width="0.52916527"
+       height="0.52916527"
+       x="34.70863"
+       y="276.3035"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-restart.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#4d4d4d;fill-opacity:1;stroke-width:0.11333"
+       id="rect290133"
+       width="0.52916527"
+       height="0.52916527"
+       x="34.70863"
+       y="275.77432"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-restart.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#4d4d4d;fill-opacity:1;stroke-width:0.11333"
+       id="rect290135"
+       width="0.52916527"
+       height="0.52916527"
+       x="34.70863"
+       y="275.24518"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-restart.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#4d4d4d;fill-opacity:1;stroke-width:0.11333"
+       id="rect290137"
+       width="0.52916527"
+       height="0.52916527"
+       x="35.237797"
+       y="276.3035"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-restart.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#4d4d4d;fill-opacity:1;stroke-width:0.11333"
+       id="rect290139"
+       width="0.52916527"
+       height="0.52916527"
+       x="36.296127"
+       y="276.3035"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-restart.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#4d4d4d;fill-opacity:1;stroke-width:0.11333"
+       id="rect290141"
+       width="0.52916527"
+       height="0.52916527"
+       x="36.296127"
+       y="273.12851"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-restart.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#4d4d4d;fill-opacity:1;stroke-width:0.11333"
+       id="rect290143"
+       width="0.52916527"
+       height="0.52916527"
+       x="36.296127"
+       y="273.65765"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-restart.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#4d4d4d;fill-opacity:1;stroke-width:0.11333"
+       id="rect290145"
+       width="0.52916527"
+       height="0.52916527"
+       x="36.296127"
+       y="274.18683"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-restart.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#4d4d4d;fill-opacity:1;stroke-width:0.11333"
+       id="rect290147"
+       width="0.52916527"
+       height="0.52916527"
+       x="36.296127"
+       y="274.716"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-restart.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#4d4d4d;fill-opacity:1;stroke-width:0.11333"
+       id="rect290149"
+       width="0.52916527"
+       height="0.52916527"
+       x="36.296127"
+       y="275.24518"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-restart.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#4d4d4d;fill-opacity:1;stroke-width:0.11333"
+       id="rect290151"
+       width="0.52916527"
+       height="0.52916527"
+       x="36.296127"
+       y="275.77432"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-restart.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#4d4d4d;fill-opacity:1;stroke-width:0.11333"
+       id="rect290153"
+       width="0.52916527"
+       height="0.52916527"
+       x="36.825291"
+       y="276.3035"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-restart.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#4d4d4d;fill-opacity:1;stroke-width:0.11333"
+       id="rect290155"
+       width="0.52916527"
+       height="0.52916527"
+       x="37.354458"
+       y="276.3035"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-restart.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#4d4d4d;fill-opacity:1;stroke-width:0.11333"
+       id="rect290157"
+       width="0.52916527"
+       height="0.52916527"
+       x="37.883625"
+       y="276.3035"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-restart.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#4d4d4d;fill-opacity:1;stroke-width:0.11333"
+       id="rect290159"
+       width="0.52916527"
+       height="0.52916527"
+       x="38.412788"
+       y="276.3035"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-restart.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#4d4d4d;fill-opacity:1;stroke-width:0.11333"
+       id="rect290161"
+       width="0.52916527"
+       height="0.52916527"
+       x="39.471123"
+       y="276.3035"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-restart.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#4d4d4d;fill-opacity:1;stroke-width:0.11333"
+       id="rect290163"
+       width="0.52916527"
+       height="0.52916527"
+       x="40.000286"
+       y="276.3035"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-restart.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#4d4d4d;fill-opacity:1;stroke-width:0.11333"
+       id="rect290165"
+       width="0.52916527"
+       height="0.52916527"
+       x="40.529453"
+       y="276.3035"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-restart.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#4d4d4d;fill-opacity:1;stroke-width:0.11333"
+       id="rect290167"
+       width="0.52916527"
+       height="0.52916527"
+       x="41.05862"
+       y="276.3035"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-restart.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#4d4d4d;fill-opacity:1;stroke-width:0.11333"
+       id="rect290169"
+       width="0.52916527"
+       height="0.52916527"
+       x="41.05862"
+       y="274.716"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-restart.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#4d4d4d;fill-opacity:1;stroke-width:0.11333"
+       id="rect290171"
+       width="0.52916527"
+       height="0.52916527"
+       x="40.529453"
+       y="274.716"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-restart.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#4d4d4d;fill-opacity:1;stroke-width:0.11333"
+       id="rect290173"
+       width="0.52916527"
+       height="0.52916527"
+       x="40.000286"
+       y="274.18683"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-restart.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#4d4d4d;fill-opacity:1;stroke-width:0.11333"
+       id="rect290175"
+       width="0.52916527"
+       height="0.52916527"
+       x="39.471123"
+       y="273.65765"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-restart.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#4d4d4d;fill-opacity:1;stroke-width:0.11333"
+       id="rect290177"
+       width="0.52916527"
+       height="0.52916527"
+       x="39.471123"
+       y="273.12851"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-restart.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#4d4d4d;fill-opacity:1;stroke-width:0.11333"
+       id="rect290179"
+       width="0.52916527"
+       height="0.52916527"
+       x="40.000286"
+       y="272.59933"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-restart.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#4d4d4d;fill-opacity:1;stroke-width:0.11333"
+       id="rect290181"
+       width="0.52916527"
+       height="0.52916527"
+       x="39.471123"
+       y="275.77432"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-restart.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#4d4d4d;fill-opacity:1;stroke-width:0.11333"
+       id="rect290183"
+       width="0.52916527"
+       height="0.52916527"
+       x="40.000286"
+       y="275.24518"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-restart.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="display:inline;fill:#4d4d4d;fill-opacity:1;stroke-width:0.11333"
+       id="rect290185"
+       width="0.52916527"
+       height="0.52916527"
+       x="42.646114"
+       y="273.12851"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-restart.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="display:inline;fill:#4d4d4d;fill-opacity:1;stroke-width:0.11333"
+       id="rect290187"
+       width="0.52916527"
+       height="0.52916527"
+       x="42.646114"
+       y="273.65765"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-restart.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="display:inline;fill:#4d4d4d;fill-opacity:1;stroke-width:0.11333"
+       id="rect290189"
+       width="0.52916527"
+       height="0.52916527"
+       x="43.175278"
+       y="273.65765"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-restart.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="display:inline;fill:#4d4d4d;fill-opacity:1;stroke-width:0.11333"
+       id="rect290191"
+       width="0.52916527"
+       height="0.52916527"
+       x="43.175278"
+       y="274.18683"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-restart.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="display:inline;fill:#4d4d4d;fill-opacity:1;stroke-width:0.11333"
+       id="rect290193"
+       width="0.52916527"
+       height="0.52916527"
+       x="43.175278"
+       y="274.716"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-restart.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="display:inline;fill:#4d4d4d;fill-opacity:1;stroke-width:0.11333"
+       id="rect290195"
+       width="0.52916527"
+       height="0.52916527"
+       x="43.175278"
+       y="275.24518"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-restart.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="display:inline;fill:#4d4d4d;fill-opacity:1;stroke-width:0.11333"
+       id="rect290197"
+       width="0.52916527"
+       height="0.52916527"
+       x="43.175278"
+       y="275.77432"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-restart.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="display:inline;fill:#4d4d4d;fill-opacity:1;stroke-width:0.11333"
+       id="rect290199"
+       width="0.52916527"
+       height="0.52916527"
+       x="43.175278"
+       y="276.3035"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-restart.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="display:inline;fill:#4d4d4d;fill-opacity:1;stroke-width:0.11333"
+       id="rect290201"
+       width="0.52916527"
+       height="0.52916527"
+       x="43.704449"
+       y="276.3035"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-restart.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="display:inline;fill:#4d4d4d;fill-opacity:1;stroke-width:0.11333"
+       id="rect290203"
+       width="0.52916527"
+       height="0.52916527"
+       x="43.175278"
+       y="273.65765"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-restart.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="display:inline;fill:#4d4d4d;fill-opacity:1;stroke-width:0.11333"
+       id="rect290205"
+       width="0.52916527"
+       height="0.52916527"
+       x="45.821114"
+       y="273.65765"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-restart.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="display:inline;fill:#4d4d4d;fill-opacity:1;stroke-width:0.11333"
+       id="rect290207"
+       width="0.52916527"
+       height="0.52916527"
+       x="45.821114"
+       y="274.18683"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-restart.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="display:inline;fill:#4d4d4d;fill-opacity:1;stroke-width:0.11333"
+       id="rect290209"
+       width="0.52916527"
+       height="0.52916527"
+       x="45.821114"
+       y="274.716"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-restart.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="display:inline;fill:#4d4d4d;fill-opacity:1;stroke-width:0.11333"
+       id="rect290211"
+       width="0.52916527"
+       height="0.52916527"
+       x="45.821114"
+       y="275.24518"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-restart.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="display:inline;fill:#4d4d4d;fill-opacity:1;stroke-width:0.11333"
+       id="rect290213"
+       width="0.52916527"
+       height="0.52916527"
+       x="45.821114"
+       y="275.77432"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-restart.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="display:inline;fill:#4d4d4d;fill-opacity:1;stroke-width:0.11333"
+       id="rect290215"
+       width="0.52916527"
+       height="0.52916527"
+       x="45.821114"
+       y="276.3035"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-restart.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="display:inline;fill:#4d4d4d;fill-opacity:1;stroke-width:0.11333"
+       id="rect290217"
+       width="0.52916527"
+       height="0.52916527"
+       x="46.350277"
+       y="276.3035"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-restart.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="display:inline;fill:#4d4d4d;fill-opacity:1;stroke-width:0.11333"
+       id="rect290219"
+       width="0.52916527"
+       height="0.52916527"
+       x="47.408607"
+       y="275.24518"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-restart.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="display:inline;fill:#4d4d4d;fill-opacity:1;stroke-width:0.11333"
+       id="rect290221"
+       width="0.52916527"
+       height="0.52916527"
+       x="47.408607"
+       y="275.77432"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-restart.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="display:inline;fill:#4d4d4d;fill-opacity:1;stroke-width:0.11333"
+       id="rect290223"
+       width="0.52916527"
+       height="0.52916527"
+       x="47.408607"
+       y="275.77432"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-restart.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="display:inline;fill:#4d4d4d;fill-opacity:1;stroke-width:0.11333"
+       id="rect290225"
+       width="0.52916527"
+       height="0.52916527"
+       x="47.408607"
+       y="276.3035"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-restart.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="display:inline;fill:#4d4d4d;fill-opacity:1;stroke-width:0.11333"
+       id="rect290227"
+       width="0.52916527"
+       height="0.52916527"
+       x="47.937775"
+       y="276.3035"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-restart.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#4d4d4d;fill-opacity:1;stroke-width:0.11333"
+       id="rect290229"
+       width="0.52916527"
+       height="0.52916527"
+       x="48.996109"
+       y="273.12851"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-restart.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#4d4d4d;fill-opacity:1;stroke-width:0.11333"
+       id="rect290231"
+       width="0.52916527"
+       height="0.52916527"
+       x="48.996109"
+       y="273.65765"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-restart.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#4d4d4d;fill-opacity:1;stroke-width:0.11333"
+       id="rect290233"
+       width="0.52916527"
+       height="0.52916527"
+       x="48.996109"
+       y="274.18683"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-restart.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#4d4d4d;fill-opacity:1;stroke-width:0.11333"
+       id="rect290235"
+       width="0.52916527"
+       height="0.52916527"
+       x="48.996109"
+       y="274.716"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-restart.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#4d4d4d;fill-opacity:1;stroke-width:0.11333"
+       id="rect290237"
+       width="0.52916527"
+       height="0.52916527"
+       x="48.996109"
+       y="275.24518"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-restart.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#4d4d4d;fill-opacity:1;stroke-width:0.11333"
+       id="rect290239"
+       width="0.52916527"
+       height="0.52916527"
+       x="48.996109"
+       y="275.77432"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-restart.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#4d4d4d;fill-opacity:1;stroke-width:0.11333"
+       id="rect290241"
+       width="0.52916527"
+       height="0.52916527"
+       x="48.996109"
+       y="276.3035"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-restart.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#4d4d4d;fill-opacity:1;stroke-width:0.11333"
+       id="rect290243"
+       width="0.52916527"
+       height="0.52916527"
+       x="49.525272"
+       y="276.3035"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-restart.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#4d4d4d;fill-opacity:1;stroke-width:0.11333"
+       id="rect290245"
+       width="0.52916527"
+       height="0.52916527"
+       x="50.583595"
+       y="276.3035"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-restart.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#4d4d4d;fill-opacity:1;stroke-width:0.11333"
+       id="rect290247"
+       width="0.52916527"
+       height="0.52916527"
+       x="50.583595"
+       y="275.77432"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-restart.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#4d4d4d;fill-opacity:1;stroke-width:0.11333"
+       id="rect290249"
+       width="0.52916527"
+       height="0.52916527"
+       x="50.583595"
+       y="275.24518"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-restart.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#4d4d4d;fill-opacity:1;stroke-width:0.11333"
+       id="rect290251"
+       width="0.52916527"
+       height="0.52916527"
+       x="51.112766"
+       y="276.3035"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-restart.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="display:inline;fill:#4d4d4d;fill-opacity:1;stroke-width:0.11333"
+       id="rect290253"
+       width="0.52916527"
+       height="0.52916527"
+       x="52.171104"
+       y="273.12851"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-restart.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="display:inline;fill:#4d4d4d;fill-opacity:1;stroke-width:0.11333"
+       id="rect290255"
+       width="0.52916527"
+       height="0.52916527"
+       x="52.171104"
+       y="273.65765"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-restart.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="display:inline;fill:#4d4d4d;fill-opacity:1;stroke-width:0.11333"
+       id="rect290257"
+       width="0.52916527"
+       height="0.52916527"
+       x="52.700268"
+       y="273.65765"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-restart.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="display:inline;fill:#4d4d4d;fill-opacity:1;stroke-width:0.11333"
+       id="rect290259"
+       width="0.52916527"
+       height="0.52916527"
+       x="52.700268"
+       y="274.18683"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-restart.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="display:inline;fill:#4d4d4d;fill-opacity:1;stroke-width:0.11333"
+       id="rect290261"
+       width="0.52916527"
+       height="0.52916527"
+       x="52.700268"
+       y="274.716"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-restart.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="display:inline;fill:#4d4d4d;fill-opacity:1;stroke-width:0.11333"
+       id="rect290263"
+       width="0.52916527"
+       height="0.52916527"
+       x="52.700268"
+       y="275.24518"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-restart.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="display:inline;fill:#4d4d4d;fill-opacity:1;stroke-width:0.11333"
+       id="rect290265"
+       width="0.52916527"
+       height="0.52916527"
+       x="52.700268"
+       y="275.77432"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-restart.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="display:inline;fill:#4d4d4d;fill-opacity:1;stroke-width:0.11333"
+       id="rect290267"
+       width="0.52916527"
+       height="0.52916527"
+       x="52.700268"
+       y="276.3035"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-restart.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="display:inline;fill:#4d4d4d;fill-opacity:1;stroke-width:0.11333"
+       id="rect290269"
+       width="0.52916527"
+       height="0.52916527"
+       x="53.229439"
+       y="276.3035"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-restart.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="display:inline;fill:#4d4d4d;fill-opacity:1;stroke-width:0.11333"
+       id="rect290271"
+       width="0.52916527"
+       height="0.52916527"
+       x="52.700268"
+       y="273.65765"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-restart.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#4d4d4d;fill-opacity:1;stroke-width:0.11333"
+       id="rect363166"
+       width="0.52916527"
+       height="0.52916527"
+       x="33.121132"
+       y="281.46259"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-quit.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#4d4d4d;fill-opacity:1;stroke-width:0.11333"
+       id="rect363168"
+       width="0.52916527"
+       height="0.52916527"
+       x="33.121132"
+       y="281.99173"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-quit.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#4d4d4d;fill-opacity:1;stroke-width:0.11333"
+       id="rect363170"
+       width="0.52916527"
+       height="0.52916527"
+       x="33.121132"
+       y="282.5209"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-quit.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#4d4d4d;fill-opacity:1;stroke-width:0.11333"
+       id="rect363172"
+       width="0.52916527"
+       height="0.52916527"
+       x="33.121132"
+       y="283.05008"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-quit.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#4d4d4d;fill-opacity:1;stroke-width:0.11333"
+       id="rect363174"
+       width="0.52916527"
+       height="0.52916527"
+       x="34.179466"
+       y="284.10843"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-quit.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#4d4d4d;fill-opacity:1;stroke-width:0.11333"
+       id="rect363176"
+       width="0.52916527"
+       height="0.52916527"
+       x="34.708633"
+       y="284.10843"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-quit.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#4d4d4d;fill-opacity:1;stroke-width:0.11333"
+       id="rect363178"
+       width="0.52916527"
+       height="0.52916527"
+       x="35.237801"
+       y="284.10843"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-quit.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#4d4d4d;fill-opacity:1;stroke-width:0.11333"
+       id="rect363180"
+       width="0.52916527"
+       height="0.52916527"
+       x="33.650299"
+       y="283.57925"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-quit.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#4d4d4d;fill-opacity:1;stroke-width:0.11333"
+       id="rect363182"
+       width="0.52916527"
+       height="0.52916527"
+       x="33.121132"
+       y="283.57925"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-quit.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#4d4d4d;fill-opacity:1;stroke-width:0.11333"
+       id="rect363184"
+       width="0.52916527"
+       height="0.52916527"
+       x="33.650299"
+       y="284.10843"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-quit.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#4d4d4d;fill-opacity:1;stroke-width:0.11333"
+       id="rect363186"
+       width="0.52916527"
+       height="0.52916527"
+       x="36.296135"
+       y="280.93341"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-quit.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#4d4d4d;fill-opacity:1;stroke-width:0.11333"
+       id="rect363188"
+       width="0.52916527"
+       height="0.52916527"
+       x="36.296135"
+       y="281.46255"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-quit.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#4d4d4d;fill-opacity:1;stroke-width:0.11333"
+       id="rect363190"
+       width="0.52916527"
+       height="0.52916527"
+       x="36.296135"
+       y="281.99173"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-quit.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#4d4d4d;fill-opacity:1;stroke-width:0.11333"
+       id="rect363192"
+       width="0.52916527"
+       height="0.52916527"
+       x="36.296135"
+       y="282.5209"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-quit.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#4d4d4d;fill-opacity:1;stroke-width:0.11333"
+       id="rect363194"
+       width="0.52916527"
+       height="0.52916527"
+       x="36.296135"
+       y="283.05008"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-quit.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#4d4d4d;fill-opacity:1;stroke-width:0.11333"
+       id="rect363196"
+       width="0.52916527"
+       height="0.52916527"
+       x="36.296135"
+       y="283.05008"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-quit.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#4d4d4d;fill-opacity:1;stroke-width:0.11333"
+       id="rect363200"
+       width="0.52916527"
+       height="0.52916527"
+       x="36.825302"
+       y="283.57925"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-quit.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#4d4d4d;fill-opacity:1;stroke-width:0.11333"
+       id="rect363202"
+       width="0.52916527"
+       height="0.52916527"
+       x="37.354469"
+       y="284.10843"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-quit.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#4d4d4d;fill-opacity:1;stroke-width:0.11333"
+       id="rect363204"
+       width="0.52916527"
+       height="0.52916527"
+       x="36.825302"
+       y="284.10843"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-quit.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#4d4d4d;fill-opacity:1;stroke-width:0.11333"
+       id="rect363206"
+       width="0.52916527"
+       height="0.52916527"
+       x="36.296135"
+       y="283.57925"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-quit.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#4d4d4d;fill-opacity:1;stroke-width:0.11333"
+       id="rect363208"
+       width="0.52916527"
+       height="0.52916527"
+       x="37.883636"
+       y="284.10843"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-quit.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#4d4d4d;fill-opacity:1;stroke-width:0.11333"
+       id="rect363292"
+       width="0.52916527"
+       height="0.52916527"
+       x="39.471138"
+       y="283.57925"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-quit.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#4d4d4d;fill-opacity:1;stroke-width:0.11333"
+       id="rect363294"
+       width="0.52916527"
+       height="0.52916527"
+       x="39.471138"
+       y="284.10843"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-quit.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#4d4d4d;fill-opacity:1;stroke-width:0.11333"
+       id="rect363296"
+       width="0.52916527"
+       height="0.52916527"
+       x="40.000305"
+       y="284.10843"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-quit.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#4d4d4d;fill-opacity:1;stroke-width:0.11333"
+       id="rect363298"
+       width="0.52916527"
+       height="0.52916527"
+       x="40.529472"
+       y="284.10843"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-quit.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#4d4d4d;fill-opacity:1;stroke-width:0.11333"
+       id="rect363300"
+       width="0.52916527"
+       height="0.52916527"
+       x="41.05864"
+       y="284.10843"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-quit.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#4d4d4d;fill-opacity:1;stroke-width:0.11333"
+       id="rect363302"
+       width="0.52916527"
+       height="0.52916527"
+       x="39.471138"
+       y="283.05008"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-quit.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#4d4d4d;fill-opacity:1;stroke-width:0.11333"
+       id="rect363304"
+       width="0.52916527"
+       height="0.52916527"
+       x="40.000305"
+       y="282.5209"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-quit.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#4d4d4d;fill-opacity:1;stroke-width:0.11333"
+       id="rect363306"
+       width="0.52916527"
+       height="0.52916527"
+       x="40.000305"
+       y="281.99173"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-quit.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#4d4d4d;fill-opacity:1;stroke-width:0.11333"
+       id="rect363308"
+       width="0.52916527"
+       height="0.52916527"
+       x="40.000305"
+       y="281.46255"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-quit.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#4d4d4d;fill-opacity:1;stroke-width:0.11333"
+       id="rect363310"
+       width="0.52916527"
+       height="0.52916527"
+       x="39.471138"
+       y="280.93338"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-quit.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="display:inline;fill:#4d4d4d;fill-opacity:1;stroke-width:0.11333"
+       id="rect363394"
+       width="0.52916527"
+       height="0.52916527"
+       x="42.116978"
+       y="280.93341"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-quit.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="display:inline;fill:#4d4d4d;fill-opacity:1;stroke-width:0.11333"
+       id="rect363396"
+       width="0.52916527"
+       height="0.52916527"
+       x="42.116978"
+       y="281.46255"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-quit.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="display:inline;fill:#4d4d4d;fill-opacity:1;stroke-width:0.11333"
+       id="rect363398"
+       width="0.52916527"
+       height="0.52916527"
+       x="42.646141"
+       y="281.46255"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-quit.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="display:inline;fill:#4d4d4d;fill-opacity:1;stroke-width:0.11333"
+       id="rect363400"
+       width="0.52916527"
+       height="0.52916527"
+       x="42.646141"
+       y="281.99173"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-quit.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="display:inline;fill:#4d4d4d;fill-opacity:1;stroke-width:0.11333"
+       id="rect363402"
+       width="0.52916527"
+       height="0.52916527"
+       x="42.646141"
+       y="282.5209"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-quit.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="display:inline;fill:#4d4d4d;fill-opacity:1;stroke-width:0.11333"
+       id="rect363404"
+       width="0.52916527"
+       height="0.52916527"
+       x="42.646141"
+       y="283.05008"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-quit.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="display:inline;fill:#4d4d4d;fill-opacity:1;stroke-width:0.11333"
+       id="rect363406"
+       width="0.52916527"
+       height="0.52916527"
+       x="42.646141"
+       y="283.57922"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-quit.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="display:inline;fill:#4d4d4d;fill-opacity:1;stroke-width:0.11333"
+       id="rect363408"
+       width="0.52916527"
+       height="0.52916527"
+       x="42.646141"
+       y="284.1084"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-quit.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="display:inline;fill:#4d4d4d;fill-opacity:1;stroke-width:0.11333"
+       id="rect363410"
+       width="0.52916527"
+       height="0.52916527"
+       x="43.175312"
+       y="284.1084"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-quit.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="display:inline;fill:#4d4d4d;fill-opacity:1;stroke-width:0.11333"
+       id="rect363412"
+       width="0.52916527"
+       height="0.52916527"
+       x="42.646141"
+       y="281.46255"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-quit.png"
        inkscape:export-xdpi="95.99939"
        inkscape:export-ydpi="95.99939" />
   </g>
@@ -32341,6 +33551,2896 @@
        x="121.76894"
        y="253.43088"
        inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-restart.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#b3b3b3;fill-opacity:1;stroke-width:0.11333"
+       id="rect290273"
+       width="0.52916527"
+       height="0.52916527"
+       x="33.650303"
+       y="272.59933"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-restart.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#cccccc;fill-opacity:1;stroke-width:0.11333"
+       id="rect290275"
+       width="0.52916527"
+       height="0.52916527"
+       x="34.179466"
+       y="272.59933"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-restart.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#999999;fill-opacity:1;stroke-width:0.11333"
+       id="rect290277"
+       width="0.52916527"
+       height="0.52916527"
+       x="33.650303"
+       y="273.12851"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-restart.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#b3b3b3;fill-opacity:1;stroke-width:0.11333"
+       id="rect290279"
+       width="0.52916527"
+       height="0.52916527"
+       x="34.179466"
+       y="273.12851"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-restart.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#999999;fill-opacity:1;stroke-width:0.11333"
+       id="rect290281"
+       width="0.52916527"
+       height="0.52916527"
+       x="33.650303"
+       y="273.65765"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-restart.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#b3b3b3;fill-opacity:1;stroke-width:0.11333"
+       id="rect290283"
+       width="0.52916527"
+       height="0.52916527"
+       x="34.179466"
+       y="273.65765"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-restart.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#999999;fill-opacity:1;stroke-width:0.11333"
+       id="rect290285"
+       width="0.52916527"
+       height="0.52916527"
+       x="33.650303"
+       y="274.18683"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-restart.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#b3b3b3;fill-opacity:1;stroke-width:0.11333"
+       id="rect290287"
+       width="0.52916527"
+       height="0.52916527"
+       x="34.179466"
+       y="274.18683"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-restart.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#999999;fill-opacity:1;stroke-width:0.11333"
+       id="rect290289"
+       width="0.52916527"
+       height="0.52916527"
+       x="33.650303"
+       y="274.716"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-restart.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#b3b3b3;fill-opacity:1;stroke-width:0.11333"
+       id="rect290291"
+       width="0.52916527"
+       height="0.52916527"
+       x="34.179466"
+       y="274.716"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-restart.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#ececec;fill-opacity:1;stroke-width:0.11333"
+       id="rect290293"
+       width="0.52916527"
+       height="0.52916527"
+       x="34.708637"
+       y="272.59933"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-restart.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#ececec;fill-opacity:1;stroke-width:0.11333"
+       id="rect290295"
+       width="0.52916527"
+       height="0.52916527"
+       x="35.237804"
+       y="272.59933"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-restart.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#ececec;fill-opacity:1;stroke-width:0.11333"
+       id="rect290297"
+       width="0.52916527"
+       height="0.52916527"
+       x="35.766968"
+       y="273.12851"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-restart.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#e6e6e6;fill-opacity:1;stroke-width:0.11333"
+       id="rect290299"
+       width="0.52916527"
+       height="0.52916527"
+       x="35.766968"
+       y="273.65765"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-restart.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#cccccc;fill-opacity:1;stroke-width:0.11333"
+       id="rect290301"
+       width="0.52916527"
+       height="0.52916527"
+       x="35.237804"
+       y="274.18683"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-restart.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#b3b3b3;fill-opacity:1;stroke-width:0.11333"
+       id="rect290303"
+       width="0.52916527"
+       height="0.52916527"
+       x="34.708637"
+       y="274.18683"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-restart.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#b3b3b3;fill-opacity:1;stroke-width:0.11333"
+       id="rect290305"
+       width="0.52916527"
+       height="0.52916527"
+       x="34.708633"
+       y="274.716"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-restart.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#999999;fill-opacity:1;stroke-width:0.11333"
+       id="rect290307"
+       width="0.52916527"
+       height="0.52916527"
+       x="33.650303"
+       y="275.24518"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-restart.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#cccccc;fill-opacity:1;stroke-width:0.11333"
+       id="rect290309"
+       width="0.52916527"
+       height="0.52916527"
+       x="35.237797"
+       y="275.24518"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-restart.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#b3b3b3;fill-opacity:1;stroke-width:0.11333"
+       id="rect290311"
+       width="0.52916527"
+       height="0.52916527"
+       x="34.179466"
+       y="275.24518"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-restart.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#999999;fill-opacity:1;stroke-width:0.11333"
+       id="rect290313"
+       width="0.52916527"
+       height="0.52916527"
+       x="34.179466"
+       y="275.77432"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-restart.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#999999;fill-opacity:1;stroke-width:0.11333"
+       id="rect290315"
+       width="0.52916527"
+       height="0.52916527"
+       x="33.650303"
+       y="275.77432"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-restart.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#cccccc;fill-opacity:1;stroke-width:0.11333"
+       id="rect290317"
+       width="0.52916527"
+       height="0.52916527"
+       x="35.76696"
+       y="275.77432"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-restart.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#cccccc;fill-opacity:1;stroke-width:0.11333"
+       id="rect290319"
+       width="0.52916527"
+       height="0.52916527"
+       x="35.237804"
+       y="273.12851"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-restart.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#cccccc;fill-opacity:1;stroke-width:0.11333"
+       id="rect290321"
+       width="0.52916527"
+       height="0.52916527"
+       x="35.237804"
+       y="273.65765"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-restart.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#b3b3b3;fill-opacity:1;stroke-width:0.11333"
+       id="rect290323"
+       width="0.52916527"
+       height="0.52916527"
+       x="36.825291"
+       y="272.59933"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-restart.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#999999;fill-opacity:1;stroke-width:0.11333"
+       id="rect290325"
+       width="0.52916527"
+       height="0.52916527"
+       x="36.825291"
+       y="273.12851"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-restart.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#999999;fill-opacity:1;stroke-width:0.11333"
+       id="rect290327"
+       width="0.52916527"
+       height="0.52916527"
+       x="36.825291"
+       y="273.65765"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-restart.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#999999;fill-opacity:1;stroke-width:0.11333"
+       id="rect290329"
+       width="0.52916527"
+       height="0.52916527"
+       x="36.825291"
+       y="274.18683"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-restart.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#999999;fill-opacity:1;stroke-width:0.11333"
+       id="rect290331"
+       width="0.52916527"
+       height="0.52916527"
+       x="36.825291"
+       y="274.716"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-restart.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#999999;fill-opacity:1;stroke-width:0.11333"
+       id="rect290333"
+       width="0.52916527"
+       height="0.52916527"
+       x="36.825291"
+       y="275.24518"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-restart.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#999999;fill-opacity:1;stroke-width:0.11333"
+       id="rect290335"
+       width="0.52916527"
+       height="0.52916527"
+       x="36.825291"
+       y="275.77432"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-restart.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#b3b3b3;fill-opacity:1;stroke-width:0.11333"
+       id="rect290337"
+       width="0.52916527"
+       height="0.52916527"
+       x="35.237797"
+       y="275.77432"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-restart.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#ececec;fill-opacity:1;stroke-width:0.11333"
+       id="rect290339"
+       width="0.52916527"
+       height="0.52916527"
+       x="35.76696"
+       y="275.24518"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-restart.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#cccccc;fill-opacity:1;stroke-width:0.11333"
+       id="rect290341"
+       width="0.52916527"
+       height="0.52916527"
+       x="35.237797"
+       y="274.716"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-restart.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#cccccc;fill-opacity:1;stroke-width:0.11333"
+       id="rect290343"
+       width="0.52916527"
+       height="0.52916527"
+       x="37.354458"
+       y="272.59933"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-restart.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#b3b3b3;fill-opacity:1;stroke-width:0.11333"
+       id="rect290345"
+       width="0.52916527"
+       height="0.52916527"
+       x="37.354458"
+       y="273.12851"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-restart.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#b3b3b3;fill-opacity:1;stroke-width:0.11333"
+       id="rect290347"
+       width="0.52916527"
+       height="0.52916527"
+       x="37.354458"
+       y="273.65765"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-restart.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#b3b3b3;fill-opacity:1;stroke-width:0.11333"
+       id="rect290349"
+       width="0.52916527"
+       height="0.52916527"
+       x="37.354458"
+       y="274.18683"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-restart.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#b3b3b3;fill-opacity:1;stroke-width:0.11333"
+       id="rect290351"
+       width="0.52916527"
+       height="0.52916527"
+       x="37.354458"
+       y="274.716"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-restart.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#b3b3b3;fill-opacity:1;stroke-width:0.11333"
+       id="rect290353"
+       width="0.52916527"
+       height="0.52916527"
+       x="37.354458"
+       y="275.24518"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-restart.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#999999;fill-opacity:1;stroke-width:0.11333"
+       id="rect290355"
+       width="0.52916527"
+       height="0.52916527"
+       x="37.354458"
+       y="275.77432"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-restart.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#cccccc;fill-opacity:1;stroke-width:0.11333"
+       id="rect290357"
+       width="0.52916527"
+       height="0.52916527"
+       x="37.883625"
+       y="272.59933"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-restart.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#cccccc;fill-opacity:1;stroke-width:0.11333"
+       id="rect290359"
+       width="0.52916527"
+       height="0.52916527"
+       x="37.883625"
+       y="273.12851"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-restart.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#ececec;fill-opacity:1;stroke-width:0.11333"
+       id="rect290361"
+       width="0.52916527"
+       height="0.52916527"
+       x="38.412788"
+       y="272.59933"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-restart.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#cccccc;fill-opacity:1;stroke-width:0.11333"
+       id="rect290363"
+       width="0.52916527"
+       height="0.52916527"
+       x="38.412788"
+       y="273.12851"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-restart.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#b3b3b3;fill-opacity:1;stroke-width:0.11333"
+       id="rect290365"
+       width="0.52916527"
+       height="0.52916527"
+       x="37.883625"
+       y="275.24518"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-restart.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#999999;fill-opacity:1;stroke-width:0.11333"
+       id="rect290367"
+       width="0.52916527"
+       height="0.52916527"
+       x="37.883625"
+       y="275.77432"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-restart.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#cccccc;fill-opacity:1;stroke-width:0.11333"
+       id="rect290369"
+       width="0.52916527"
+       height="0.52916527"
+       x="38.412788"
+       y="275.24518"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-restart.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#b3b3b3;fill-opacity:1;stroke-width:0.11333"
+       id="rect290371"
+       width="0.52916527"
+       height="0.52916527"
+       x="38.412788"
+       y="275.77432"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-restart.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#ececec;fill-opacity:1;stroke-width:0.11333"
+       id="rect290373"
+       width="0.52916527"
+       height="0.52916527"
+       x="38.941956"
+       y="272.59933"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-restart.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#ececec;fill-opacity:1;stroke-width:0.11333"
+       id="rect290375"
+       width="0.52916527"
+       height="0.52916527"
+       x="38.941956"
+       y="273.12851"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-restart.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#ececec;fill-opacity:1;stroke-width:0.11333"
+       id="rect290377"
+       width="0.52916527"
+       height="0.52916527"
+       x="38.941956"
+       y="275.24518"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-restart.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#b3b3b3;fill-opacity:1;stroke-width:0.11333"
+       id="rect290379"
+       width="0.52916527"
+       height="0.52916527"
+       x="38.941956"
+       y="275.77432"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-restart.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#cccccc;fill-opacity:1;stroke-width:0.11333"
+       id="rect290381"
+       width="0.52916527"
+       height="0.52916527"
+       x="37.883625"
+       y="274.18683"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-restart.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#ececec;fill-opacity:1;stroke-width:0.11333"
+       id="rect290383"
+       width="0.52916527"
+       height="0.52916527"
+       x="38.412788"
+       y="274.18683"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-restart.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#ececec;fill-opacity:1;stroke-width:0.11333"
+       id="rect290385"
+       width="0.52916527"
+       height="0.52916527"
+       x="42.116951"
+       y="272.59933"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-restart.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#b3b3b3;fill-opacity:1;stroke-width:0.11333"
+       id="rect290387"
+       width="0.52916527"
+       height="0.52916527"
+       x="40.000286"
+       y="273.12851"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-restart.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#b3b3b3;fill-opacity:1;stroke-width:0.11333"
+       id="rect290389"
+       width="0.52916527"
+       height="0.52916527"
+       x="40.529453"
+       y="272.59933"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-restart.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#cccccc;fill-opacity:1;stroke-width:0.11333"
+       id="rect290391"
+       width="0.52916527"
+       height="0.52916527"
+       x="41.05862"
+       y="272.59933"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-restart.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#ececec;fill-opacity:1;stroke-width:0.11333"
+       id="rect290393"
+       width="0.52916527"
+       height="0.52916527"
+       x="41.587784"
+       y="272.59933"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-restart.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#b3b3b3;fill-opacity:1;stroke-width:0.11333"
+       id="rect290395"
+       width="0.52916527"
+       height="0.52916527"
+       x="40.000286"
+       y="273.65765"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-restart.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#b3b3b3;fill-opacity:1;stroke-width:0.11333"
+       id="rect290397"
+       width="0.52916527"
+       height="0.52916527"
+       x="40.529453"
+       y="274.18683"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-restart.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#b3b3b3;fill-opacity:1;stroke-width:0.11333"
+       id="rect290399"
+       width="0.52916527"
+       height="0.52916527"
+       x="41.05862"
+       y="274.18683"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-restart.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#cccccc;fill-opacity:1;stroke-width:0.11333"
+       id="rect290401"
+       width="0.52916527"
+       height="0.52916527"
+       x="41.587784"
+       y="274.18683"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-restart.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#ececec;fill-opacity:1;stroke-width:0.11333"
+       id="rect290403"
+       width="0.52916527"
+       height="0.52916527"
+       x="42.116951"
+       y="274.716"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-restart.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#cccccc;fill-opacity:1;stroke-width:0.11333"
+       id="rect290405"
+       width="0.52916527"
+       height="0.52916527"
+       x="42.116951"
+       y="275.24518"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-restart.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#b3b3b3;fill-opacity:1;stroke-width:0.11333"
+       id="rect290407"
+       width="0.52916527"
+       height="0.52916527"
+       x="41.587784"
+       y="275.77432"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-restart.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#b3b3b3;fill-opacity:1;stroke-width:0.11333"
+       id="rect290409"
+       width="0.52916527"
+       height="0.52916527"
+       x="41.05862"
+       y="275.77432"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-restart.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#999999;fill-opacity:1;stroke-width:0.11333"
+       id="rect290411"
+       width="0.52916527"
+       height="0.52916527"
+       x="40.000286"
+       y="275.77432"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-restart.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#999999;fill-opacity:1;stroke-width:0.11333"
+       id="rect290413"
+       width="0.52916527"
+       height="0.52916527"
+       x="40.529453"
+       y="275.77432"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-restart.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#ececec;fill-opacity:1;stroke-width:0.11333"
+       id="rect290415"
+       width="0.52916527"
+       height="0.52916527"
+       x="41.587784"
+       y="273.12851"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-restart.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#cccccc;fill-opacity:1;stroke-width:0.11333"
+       id="rect290417"
+       width="0.52916527"
+       height="0.52916527"
+       x="41.587784"
+       y="275.24518"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-restart.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#b3b3b3;fill-opacity:1;stroke-width:0.11333"
+       id="rect290419"
+       width="0.52916527"
+       height="0.52916527"
+       x="40.529453"
+       y="275.24518"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-restart.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#b3b3b3;fill-opacity:1;stroke-width:0.11333"
+       id="rect290421"
+       width="0.52916527"
+       height="0.52916527"
+       x="41.05862"
+       y="275.24518"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-restart.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#cccccc;fill-opacity:1;stroke-width:0.11333"
+       id="rect290423"
+       width="0.52916527"
+       height="0.52916527"
+       x="41.05862"
+       y="273.12851"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-restart.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#b3b3b3;fill-opacity:1;stroke-width:0.11333"
+       id="rect290425"
+       width="0.52916527"
+       height="0.52916527"
+       x="40.529453"
+       y="273.12851"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-restart.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#b3b3b3;fill-opacity:1;stroke-width:0.11333"
+       id="rect290427"
+       width="0.52916527"
+       height="0.52916527"
+       x="40.529453"
+       y="273.65765"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-restart.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#cccccc;fill-opacity:1;stroke-width:0.11333"
+       id="rect290429"
+       width="0.52916527"
+       height="0.52916527"
+       x="41.587784"
+       y="274.716"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-restart.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#ececec;fill-opacity:1;stroke-width:0.11333"
+       id="rect290431"
+       width="0.52916527"
+       height="0.52916527"
+       x="45.291946"
+       y="272.59933"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-restart.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#ececec;fill-opacity:1;stroke-width:0.11333"
+       id="rect290433"
+       width="0.52916527"
+       height="0.52916527"
+       x="45.291946"
+       y="273.12851"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-restart.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#b3b3b3;fill-opacity:1;stroke-width:0.11333"
+       id="rect290435"
+       width="0.52916527"
+       height="0.52916527"
+       x="43.175278"
+       y="272.59933"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-restart.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#999999;fill-opacity:1;stroke-width:0.11333"
+       id="rect290437"
+       width="0.52916527"
+       height="0.52916527"
+       x="43.175278"
+       y="273.12851"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-restart.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#cccccc;fill-opacity:1;stroke-width:0.11333"
+       id="rect290439"
+       width="0.52916527"
+       height="0.52916527"
+       x="43.704449"
+       y="272.59933"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-restart.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#b3b3b3;fill-opacity:1;stroke-width:0.11333"
+       id="rect290441"
+       width="0.52916527"
+       height="0.52916527"
+       x="43.704449"
+       y="273.12851"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-restart.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#cccccc;fill-opacity:1;stroke-width:0.11333"
+       id="rect290443"
+       width="0.52916527"
+       height="0.52916527"
+       x="44.233612"
+       y="272.59933"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-restart.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#cccccc;fill-opacity:1;stroke-width:0.11333"
+       id="rect290445"
+       width="0.52916527"
+       height="0.52916527"
+       x="44.233612"
+       y="273.12851"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-restart.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#ececec;fill-opacity:1;stroke-width:0.11333"
+       id="rect290447"
+       width="0.52916527"
+       height="0.52916527"
+       x="44.762779"
+       y="272.59933"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-restart.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#cccccc;fill-opacity:1;stroke-width:0.11333"
+       id="rect290449"
+       width="0.52916527"
+       height="0.52916527"
+       x="44.762779"
+       y="273.12851"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-restart.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#999999;fill-opacity:1;stroke-width:0.11333"
+       id="rect290451"
+       width="0.52916527"
+       height="0.52916527"
+       x="43.704449"
+       y="273.65765"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-restart.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#b3b3b3;fill-opacity:1;stroke-width:0.11333"
+       id="rect290453"
+       width="0.52916527"
+       height="0.52916527"
+       x="43.704449"
+       y="274.18683"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-restart.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#b3b3b3;fill-opacity:1;stroke-width:0.11333"
+       id="rect290455"
+       width="0.52916527"
+       height="0.52916527"
+       x="43.704449"
+       y="274.716"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-restart.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#b3b3b3;fill-opacity:1;stroke-width:0.11333"
+       id="rect290457"
+       width="0.52916527"
+       height="0.52916527"
+       x="43.704449"
+       y="275.24518"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-restart.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#b3b3b3;fill-opacity:1;stroke-width:0.11333"
+       id="rect290459"
+       width="0.52916527"
+       height="0.52916527"
+       x="43.704449"
+       y="275.77432"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-restart.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#b3b3b3;fill-opacity:1;stroke-width:0.11333"
+       id="rect290461"
+       width="0.52916527"
+       height="0.52916527"
+       x="44.233612"
+       y="273.65765"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-restart.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#999999;fill-opacity:1;stroke-width:0.11333"
+       id="rect290463"
+       width="0.52916527"
+       height="0.52916527"
+       x="43.704449"
+       y="274.18683"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-restart.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#999999;fill-opacity:1;stroke-width:0.11333"
+       id="rect290465"
+       width="0.52916527"
+       height="0.52916527"
+       x="43.704449"
+       y="274.716"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-restart.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#999999;fill-opacity:1;stroke-width:0.11333"
+       id="rect290467"
+       width="0.52916527"
+       height="0.52916527"
+       x="43.704449"
+       y="275.24518"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-restart.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#999999;fill-opacity:1;stroke-width:0.11333"
+       id="rect290469"
+       width="0.52916527"
+       height="0.52916527"
+       x="43.704449"
+       y="275.77432"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-restart.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#b3b3b3;fill-opacity:1;stroke-width:0.11333"
+       id="rect290471"
+       width="0.52916527"
+       height="0.52916527"
+       x="44.233612"
+       y="274.18683"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-restart.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#b3b3b3;fill-opacity:1;stroke-width:0.11333"
+       id="rect290473"
+       width="0.52916527"
+       height="0.52916527"
+       x="44.233612"
+       y="274.716"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-restart.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#b3b3b3;fill-opacity:1;stroke-width:0.11333"
+       id="rect290475"
+       width="0.52916527"
+       height="0.52916527"
+       x="44.233612"
+       y="275.24518"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-restart.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#ececec;fill-opacity:1;stroke-width:0.11333"
+       id="rect290477"
+       width="0.52916527"
+       height="0.52916527"
+       x="47.937775"
+       y="272.59933"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-restart.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#ececec;fill-opacity:1;stroke-width:0.11333"
+       id="rect290479"
+       width="0.52916527"
+       height="0.52916527"
+       x="47.937775"
+       y="273.12851"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-restart.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#ececec;fill-opacity:1;stroke-width:0.11333"
+       id="rect290481"
+       width="0.52916527"
+       height="0.52916527"
+       x="48.466938"
+       y="273.12851"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-restart.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#999999;fill-opacity:1;stroke-width:0.11333"
+       id="rect290483"
+       width="0.52916527"
+       height="0.52916527"
+       x="46.350277"
+       y="273.12851"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-restart.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#cccccc;fill-opacity:1;stroke-width:0.11333"
+       id="rect290485"
+       width="0.52916527"
+       height="0.52916527"
+       x="46.879436"
+       y="272.59933"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-restart.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#b3b3b3;fill-opacity:1;stroke-width:0.11333"
+       id="rect290487"
+       width="0.52916527"
+       height="0.52916527"
+       x="46.879436"
+       y="273.12851"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-restart.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#cccccc;fill-opacity:1;stroke-width:0.11333"
+       id="rect290489"
+       width="0.52916527"
+       height="0.52916527"
+       x="47.408607"
+       y="272.59933"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-restart.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#cccccc;fill-opacity:1;stroke-width:0.11333"
+       id="rect290491"
+       width="0.52916527"
+       height="0.52916527"
+       x="47.408607"
+       y="273.12851"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-restart.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#999999;fill-opacity:1;stroke-width:0.11333"
+       id="rect290493"
+       width="0.52916527"
+       height="0.52916527"
+       x="46.350277"
+       y="273.65765"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-restart.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#999999;fill-opacity:1;stroke-width:0.11333"
+       id="rect290495"
+       width="0.52916527"
+       height="0.52916527"
+       x="46.350277"
+       y="274.18683"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-restart.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#999999;fill-opacity:1;stroke-width:0.11333"
+       id="rect290497"
+       width="0.52916527"
+       height="0.52916527"
+       x="46.350277"
+       y="274.716"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-restart.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#999999;fill-opacity:1;stroke-width:0.11333"
+       id="rect290499"
+       width="0.52916527"
+       height="0.52916527"
+       x="46.350277"
+       y="275.24518"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-restart.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#ececec;fill-opacity:1;stroke-width:0.11333"
+       id="rect290501"
+       width="0.52916527"
+       height="0.52916527"
+       x="48.466938"
+       y="273.65765"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-restart.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#cccccc;fill-opacity:1;stroke-width:0.11333"
+       id="rect290503"
+       width="0.52916527"
+       height="0.52916527"
+       x="48.466938"
+       y="274.18683"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-restart.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#cccccc;fill-opacity:1;stroke-width:0.11333"
+       id="rect290505"
+       width="0.52916527"
+       height="0.52916527"
+       x="48.466938"
+       y="274.716"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-restart.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#cccccc;fill-opacity:1;stroke-width:0.11333"
+       id="rect290507"
+       width="0.52916527"
+       height="0.52916527"
+       x="48.466938"
+       y="275.24518"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-restart.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#999999;fill-opacity:1;stroke-width:0.11333"
+       id="rect290509"
+       width="0.52916527"
+       height="0.52916527"
+       x="46.350277"
+       y="275.77432"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-restart.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#b3b3b3;fill-opacity:1;stroke-width:0.11333"
+       id="rect290511"
+       width="0.52916527"
+       height="0.52916527"
+       x="48.466938"
+       y="275.77432"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-restart.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#cccccc;fill-opacity:1;stroke-width:0.11333"
+       id="rect290513"
+       width="0.52916527"
+       height="0.52916527"
+       x="47.937775"
+       y="274.18683"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-restart.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#b3b3b3;fill-opacity:1;stroke-width:0.11333"
+       id="rect290515"
+       width="0.52916527"
+       height="0.52916527"
+       x="46.879436"
+       y="274.18683"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-restart.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#b3b3b3;fill-opacity:1;stroke-width:0.11333"
+       id="rect290517"
+       width="0.52916527"
+       height="0.52916527"
+       x="47.408607"
+       y="274.18683"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-restart.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#b3b3b3;fill-opacity:1;stroke-width:0.11333"
+       id="rect290519"
+       width="0.52916527"
+       height="0.52916527"
+       x="47.937775"
+       y="274.716"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-restart.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#b3b3b3;fill-opacity:1;stroke-width:0.11333"
+       id="rect290521"
+       width="0.52916527"
+       height="0.52916527"
+       x="46.879436"
+       y="274.716"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-restart.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#b3b3b3;fill-opacity:1;stroke-width:0.11333"
+       id="rect290523"
+       width="0.52916527"
+       height="0.52916527"
+       x="47.408607"
+       y="274.716"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-restart.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#b3b3b3;fill-opacity:1;stroke-width:0.11333"
+       id="rect290525"
+       width="0.52916527"
+       height="0.52916527"
+       x="46.879436"
+       y="273.65765"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-restart.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#cccccc;fill-opacity:1;stroke-width:0.11333"
+       id="rect290527"
+       width="0.52916527"
+       height="0.52916527"
+       x="47.937775"
+       y="273.65765"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-restart.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#b3b3b3;fill-opacity:1;stroke-width:0.11333"
+       id="rect290529"
+       width="0.52916527"
+       height="0.52916527"
+       x="46.879436"
+       y="275.24518"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-restart.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#b3b3b3;fill-opacity:1;stroke-width:0.11333"
+       id="rect290531"
+       width="0.52916527"
+       height="0.52916527"
+       x="46.879436"
+       y="275.77432"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-restart.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#b3b3b3;fill-opacity:1;stroke-width:0.11333"
+       id="rect290533"
+       width="0.52916527"
+       height="0.52916527"
+       x="47.937775"
+       y="275.24518"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-restart.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#b3b3b3;fill-opacity:1;stroke-width:0.11333"
+       id="rect290535"
+       width="0.52916527"
+       height="0.52916527"
+       x="47.937775"
+       y="275.77432"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-restart.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#b3b3b3;fill-opacity:1;stroke-width:0.11333"
+       id="rect290537"
+       width="0.52916527"
+       height="0.52916527"
+       x="49.525272"
+       y="272.59933"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-restart.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#cccccc;fill-opacity:1;stroke-width:0.11333"
+       id="rect290539"
+       width="0.52916527"
+       height="0.52916527"
+       x="50.054436"
+       y="272.59933"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-restart.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#999999;fill-opacity:1;stroke-width:0.11333"
+       id="rect290541"
+       width="0.52916527"
+       height="0.52916527"
+       x="49.525272"
+       y="273.12851"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-restart.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#b3b3b3;fill-opacity:1;stroke-width:0.11333"
+       id="rect290543"
+       width="0.52916527"
+       height="0.52916527"
+       x="50.054436"
+       y="273.12851"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-restart.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#999999;fill-opacity:1;stroke-width:0.11333"
+       id="rect290545"
+       width="0.52916527"
+       height="0.52916527"
+       x="49.525272"
+       y="273.65765"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-restart.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#b3b3b3;fill-opacity:1;stroke-width:0.11333"
+       id="rect290547"
+       width="0.52916527"
+       height="0.52916527"
+       x="50.054436"
+       y="273.65765"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-restart.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#999999;fill-opacity:1;stroke-width:0.11333"
+       id="rect290549"
+       width="0.52916527"
+       height="0.52916527"
+       x="49.525272"
+       y="274.18683"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-restart.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#b3b3b3;fill-opacity:1;stroke-width:0.11333"
+       id="rect290551"
+       width="0.52916527"
+       height="0.52916527"
+       x="50.054436"
+       y="274.18683"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-restart.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#999999;fill-opacity:1;stroke-width:0.11333"
+       id="rect290553"
+       width="0.52916527"
+       height="0.52916527"
+       x="49.525272"
+       y="274.716"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-restart.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#b3b3b3;fill-opacity:1;stroke-width:0.11333"
+       id="rect290555"
+       width="0.52916527"
+       height="0.52916527"
+       x="50.054436"
+       y="274.716"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-restart.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#cccccc;fill-opacity:1;stroke-width:0.11333"
+       id="rect290557"
+       width="0.52916527"
+       height="0.52916527"
+       x="50.583607"
+       y="272.59933"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-restart.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#ececec;fill-opacity:1;stroke-width:0.11333"
+       id="rect290559"
+       width="0.52916527"
+       height="0.52916527"
+       x="51.11277"
+       y="272.59933"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-restart.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#ececec;fill-opacity:1;stroke-width:0.11333"
+       id="rect290561"
+       width="0.52916527"
+       height="0.52916527"
+       x="51.641941"
+       y="273.12851"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-restart.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#ececec;fill-opacity:1;stroke-width:0.11333"
+       id="rect290563"
+       width="0.52916527"
+       height="0.52916527"
+       x="51.641941"
+       y="273.65765"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-restart.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#cccccc;fill-opacity:1;stroke-width:0.11333"
+       id="rect290565"
+       width="0.52916527"
+       height="0.52916527"
+       x="51.11277"
+       y="274.18683"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-restart.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#b3b3b3;fill-opacity:1;stroke-width:0.11333"
+       id="rect290567"
+       width="0.52916527"
+       height="0.52916527"
+       x="50.583607"
+       y="274.18683"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-restart.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#b3b3b3;fill-opacity:1;stroke-width:0.11333"
+       id="rect290569"
+       width="0.52916527"
+       height="0.52916527"
+       x="50.583607"
+       y="274.716"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-restart.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#999999;fill-opacity:1;stroke-width:0.11333"
+       id="rect290571"
+       width="0.52916527"
+       height="0.52916527"
+       x="49.525272"
+       y="275.24518"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-restart.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#b3b3b3;fill-opacity:1;stroke-width:0.11333"
+       id="rect290573"
+       width="0.52916527"
+       height="0.52916527"
+       x="51.112766"
+       y="275.24518"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-restart.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#b3b3b3;fill-opacity:1;stroke-width:0.11333"
+       id="rect290575"
+       width="0.52916527"
+       height="0.52916527"
+       x="50.054436"
+       y="275.24518"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-restart.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#999999;fill-opacity:1;stroke-width:0.11333"
+       id="rect290577"
+       width="0.52916527"
+       height="0.52916527"
+       x="50.054436"
+       y="275.77432"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-restart.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#999999;fill-opacity:1;stroke-width:0.11333"
+       id="rect290579"
+       width="0.52916527"
+       height="0.52916527"
+       x="49.525272"
+       y="275.77432"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-restart.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#b3b3b3;fill-opacity:1;stroke-width:0.11333"
+       id="rect290581"
+       width="0.52916527"
+       height="0.52916527"
+       x="51.641933"
+       y="275.77432"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-restart.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#cccccc;fill-opacity:1;stroke-width:0.11333"
+       id="rect290583"
+       width="0.52916527"
+       height="0.52916527"
+       x="51.11277"
+       y="273.12851"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-restart.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#cccccc;fill-opacity:1;stroke-width:0.11333"
+       id="rect290585"
+       width="0.52916527"
+       height="0.52916527"
+       x="51.11277"
+       y="273.65765"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-restart.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#b3b3b3;fill-opacity:1;stroke-width:0.11333"
+       id="rect290587"
+       width="0.52916527"
+       height="0.52916527"
+       x="51.112766"
+       y="275.77432"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-restart.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#cccccc;fill-opacity:1;stroke-width:0.11333"
+       id="rect290589"
+       width="0.52916527"
+       height="0.52916527"
+       x="51.641933"
+       y="275.24518"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-restart.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#b3b3b3;fill-opacity:1;stroke-width:0.11333"
+       id="rect290591"
+       width="0.52916527"
+       height="0.52916527"
+       x="51.112766"
+       y="274.716"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-restart.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#b3b3b3;fill-opacity:1;stroke-width:0.11333"
+       id="rect290593"
+       width="0.52916527"
+       height="0.52916527"
+       x="44.233612"
+       y="275.77432"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-restart.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke-width:0.11333"
+       id="rect290595"
+       width="0.52916527"
+       height="0.52916527"
+       x="54.816933"
+       y="272.59933"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-restart.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#ececec;fill-opacity:1;stroke-width:0.11333"
+       id="rect290597"
+       width="0.52916527"
+       height="0.52916527"
+       x="54.816933"
+       y="273.12851"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-restart.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#999999;fill-opacity:1;stroke-width:0.11333"
+       id="rect290599"
+       width="0.52916527"
+       height="0.52916527"
+       x="52.700272"
+       y="272.59933"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-restart.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#999999;fill-opacity:1;stroke-width:0.11333"
+       id="rect290601"
+       width="0.52916527"
+       height="0.52916527"
+       x="52.700272"
+       y="273.12851"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-restart.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#cccccc;fill-opacity:1;stroke-width:0.11333"
+       id="rect290603"
+       width="0.52916527"
+       height="0.52916527"
+       x="53.229439"
+       y="272.59933"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-restart.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#b3b3b3;fill-opacity:1;stroke-width:0.11333"
+       id="rect290605"
+       width="0.52916527"
+       height="0.52916527"
+       x="53.229439"
+       y="273.12851"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-restart.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#cccccc;fill-opacity:1;stroke-width:0.11333"
+       id="rect290607"
+       width="0.52916527"
+       height="0.52916527"
+       x="53.758606"
+       y="272.59933"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-restart.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#b3b3b3;fill-opacity:1;stroke-width:0.11333"
+       id="rect290609"
+       width="0.52916527"
+       height="0.52916527"
+       x="53.758606"
+       y="273.12851"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-restart.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#ececec;fill-opacity:1;stroke-width:0.11333"
+       id="rect290611"
+       width="0.52916527"
+       height="0.52916527"
+       x="54.287769"
+       y="272.59933"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-restart.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#cccccc;fill-opacity:1;stroke-width:0.11333"
+       id="rect290613"
+       width="0.52916527"
+       height="0.52916527"
+       x="54.287769"
+       y="273.12851"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-restart.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#999999;fill-opacity:1;stroke-width:0.11333"
+       id="rect290615"
+       width="0.52916527"
+       height="0.52916527"
+       x="53.229439"
+       y="273.65765"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-restart.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#b3b3b3;fill-opacity:1;stroke-width:0.11333"
+       id="rect290617"
+       width="0.52916527"
+       height="0.52916527"
+       x="53.229439"
+       y="274.18683"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-restart.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#b3b3b3;fill-opacity:1;stroke-width:0.11333"
+       id="rect290619"
+       width="0.52916527"
+       height="0.52916527"
+       x="53.229439"
+       y="274.716"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-restart.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#b3b3b3;fill-opacity:1;stroke-width:0.11333"
+       id="rect290621"
+       width="0.52916527"
+       height="0.52916527"
+       x="53.229439"
+       y="275.24518"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-restart.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#b3b3b3;fill-opacity:1;stroke-width:0.11333"
+       id="rect290623"
+       width="0.52916527"
+       height="0.52916527"
+       x="53.229439"
+       y="275.77432"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-restart.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#b3b3b3;fill-opacity:1;stroke-width:0.11333"
+       id="rect290625"
+       width="0.52916527"
+       height="0.52916527"
+       x="53.758606"
+       y="273.65765"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-restart.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#999999;fill-opacity:1;stroke-width:0.11333"
+       id="rect290627"
+       width="0.52916527"
+       height="0.52916527"
+       x="53.229439"
+       y="274.18683"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-restart.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#999999;fill-opacity:1;stroke-width:0.11333"
+       id="rect290629"
+       width="0.52916527"
+       height="0.52916527"
+       x="53.229439"
+       y="274.716"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-restart.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#999999;fill-opacity:1;stroke-width:0.11333"
+       id="rect290631"
+       width="0.52916527"
+       height="0.52916527"
+       x="53.229439"
+       y="275.24518"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-restart.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#999999;fill-opacity:1;stroke-width:0.11333"
+       id="rect290633"
+       width="0.52916527"
+       height="0.52916527"
+       x="53.229439"
+       y="275.77432"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-restart.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#b3b3b3;fill-opacity:1;stroke-width:0.11333"
+       id="rect290635"
+       width="0.52916527"
+       height="0.52916527"
+       x="53.758606"
+       y="274.18683"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-restart.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#b3b3b3;fill-opacity:1;stroke-width:0.11333"
+       id="rect290637"
+       width="0.52916527"
+       height="0.52916527"
+       x="53.758606"
+       y="274.716"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-restart.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#b3b3b3;fill-opacity:1;stroke-width:0.11333"
+       id="rect290639"
+       width="0.52916527"
+       height="0.52916527"
+       x="53.758606"
+       y="275.24518"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-restart.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#b3b3b3;fill-opacity:1;stroke-width:0.11333"
+       id="rect290641"
+       width="0.52916527"
+       height="0.52916527"
+       x="53.758606"
+       y="275.77432"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-restart.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#cccccc;fill-opacity:1;stroke-width:0.11333"
+       id="rect292141"
+       width="0.52916527"
+       height="0.52916527"
+       x="34.708637"
+       y="280.40421"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-quit.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#999999;fill-opacity:1;stroke-width:0.11333"
+       id="rect292143"
+       width="0.52916527"
+       height="0.52916527"
+       x="34.179474"
+       y="280.40421"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-quit.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#999999;fill-opacity:1;stroke-width:0.11333"
+       id="rect292145"
+       width="0.52916527"
+       height="0.52916527"
+       x="33.650307"
+       y="280.93338"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-quit.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#ececec;fill-opacity:1;stroke-width:0.11333"
+       id="rect292147"
+       width="0.52916527"
+       height="0.52916527"
+       x="35.237801"
+       y="280.40421"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-quit.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#ececec;fill-opacity:1;stroke-width:0.11333"
+       id="rect292149"
+       width="0.52916527"
+       height="0.52916527"
+       x="35.766968"
+       y="280.93338"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-quit.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#ececec;fill-opacity:1;stroke-width:0.11333"
+       id="rect292151"
+       width="0.52916527"
+       height="0.52916527"
+       x="35.766968"
+       y="281.46255"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-quit.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#cccccc;fill-opacity:1;stroke-width:0.11333"
+       id="rect292153"
+       width="0.52916527"
+       height="0.52916527"
+       x="35.766968"
+       y="281.99173"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-quit.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#cccccc;fill-opacity:1;stroke-width:0.11333"
+       id="rect292157"
+       width="0.52916527"
+       height="0.52916527"
+       x="35.766968"
+       y="282.5209"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-quit.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#cccccc;fill-opacity:1;stroke-width:0.11333"
+       id="rect292159"
+       width="0.52916527"
+       height="0.52916527"
+       x="35.766968"
+       y="283.05008"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-quit.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#cccccc;fill-opacity:1;stroke-width:0.11333"
+       id="rect292161"
+       width="0.52916527"
+       height="0.52916527"
+       x="35.237801"
+       y="283.57925"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-quit.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#999999;fill-opacity:1;stroke-width:0.11333"
+       id="rect292163"
+       width="0.52916527"
+       height="0.52916527"
+       x="34.708633"
+       y="283.57925"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-quit.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#999999;fill-opacity:1;stroke-width:0.11333"
+       id="rect292165"
+       width="0.52916527"
+       height="0.52916527"
+       x="34.179466"
+       y="283.57925"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-quit.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#999999;fill-opacity:1;stroke-width:0.11333"
+       id="rect292167"
+       width="0.52916527"
+       height="0.52916527"
+       x="33.650299"
+       y="283.05008"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-quit.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#999999;fill-opacity:1;stroke-width:0.11333"
+       id="rect292169"
+       width="0.52916527"
+       height="0.52916527"
+       x="33.650299"
+       y="282.5209"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-quit.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#999999;fill-opacity:1;stroke-width:0.11333"
+       id="rect292173"
+       width="0.52916527"
+       height="0.52916527"
+       x="33.650307"
+       y="281.46255"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-quit.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#999999;fill-opacity:1;stroke-width:0.11333"
+       id="rect292175"
+       width="0.52916527"
+       height="0.52916527"
+       x="33.650299"
+       y="281.99173"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-quit.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#b3b3b3;fill-opacity:1;stroke-width:0.11333"
+       id="rect292177"
+       width="0.52916527"
+       height="0.52916527"
+       x="34.179474"
+       y="280.93338"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-quit.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#b3b3b3;fill-opacity:1;stroke-width:0.11333"
+       id="rect292179"
+       width="0.52916527"
+       height="0.52916527"
+       x="34.179466"
+       y="283.05008"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-quit.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#cccccc;fill-opacity:1;stroke-width:0.11333"
+       id="rect292181"
+       width="0.52916527"
+       height="0.52916527"
+       x="35.237801"
+       y="283.05008"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-quit.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#b3b3b3;fill-opacity:1;stroke-width:0.11333"
+       id="rect292183"
+       width="0.52916527"
+       height="0.52916527"
+       x="35.237801"
+       y="280.93338"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-quit.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#b3b3b3;fill-opacity:1;stroke-width:0.11333"
+       id="rect292185"
+       width="0.52916527"
+       height="0.52916527"
+       x="34.179474"
+       y="281.46255"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-quit.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#b3b3b3;fill-opacity:1;stroke-width:0.11333"
+       id="rect292187"
+       width="0.52916527"
+       height="0.52916527"
+       x="34.179466"
+       y="282.5209"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-quit.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#b3b3b3;fill-opacity:1;stroke-width:0.11333"
+       id="rect292191"
+       width="0.52916527"
+       height="0.52916527"
+       x="34.179474"
+       y="281.99173"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-quit.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#b3b3b3;fill-opacity:1;stroke-width:0.11333"
+       id="rect292193"
+       width="0.52916527"
+       height="0.52916527"
+       x="34.708633"
+       y="283.05008"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-quit.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#b3b3b3;fill-opacity:1;stroke-width:0.11333"
+       id="rect292195"
+       width="0.52916527"
+       height="0.52916527"
+       x="35.237801"
+       y="282.5209"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-quit.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#b3b3b3;fill-opacity:1;stroke-width:0.11333"
+       id="rect292199"
+       width="0.52916527"
+       height="0.52916527"
+       x="35.237801"
+       y="281.99173"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-quit.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#b3b3b3;fill-opacity:1;stroke-width:0.11333"
+       id="rect292201"
+       width="0.52916527"
+       height="0.52916527"
+       x="35.237801"
+       y="281.46255"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-quit.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#b3b3b3;fill-opacity:1;stroke-width:0.11333"
+       id="rect292203"
+       width="0.52916527"
+       height="0.52916527"
+       x="34.708641"
+       y="280.93338"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-quit.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#ececec;fill-opacity:1;stroke-width:0.11333"
+       id="rect292207"
+       width="0.52916527"
+       height="0.52916527"
+       x="35.766968"
+       y="283.57925"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-quit.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#b3b3b3;fill-opacity:1;stroke-width:0.11333"
+       id="rect292531"
+       width="0.52916527"
+       height="0.52916527"
+       x="36.825302"
+       y="280.93338"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-quit.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#cccccc;fill-opacity:1;stroke-width:0.11333"
+       id="rect292613"
+       width="0.52916527"
+       height="0.52916527"
+       x="36.825302"
+       y="280.40421"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-quit.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#cccccc;fill-opacity:1;stroke-width:0.11333"
+       id="rect292615"
+       width="0.52916527"
+       height="0.52916527"
+       x="37.354469"
+       y="280.40421"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-quit.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#ececec;fill-opacity:1;stroke-width:0.11333"
+       id="rect292619"
+       width="0.52916527"
+       height="0.52916527"
+       x="38.412804"
+       y="280.40421"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-quit.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#ececec;fill-opacity:1;stroke-width:0.11333"
+       id="rect292701"
+       width="0.52916527"
+       height="0.52916527"
+       x="38.941971"
+       y="280.40421"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-quit.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#ececec;fill-opacity:1;stroke-width:0.11333"
+       id="rect292703"
+       width="0.52916527"
+       height="0.52916527"
+       x="38.941971"
+       y="280.93338"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-quit.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#cccccc;fill-opacity:1;stroke-width:0.11333"
+       id="rect292705"
+       width="0.52916527"
+       height="0.52916527"
+       x="38.941971"
+       y="281.46255"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-quit.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#cccccc;fill-opacity:1;stroke-width:0.11333"
+       id="rect292707"
+       width="0.52916527"
+       height="0.52916527"
+       x="38.941971"
+       y="281.99173"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-quit.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#cccccc;fill-opacity:1;stroke-width:0.11333"
+       id="rect292709"
+       width="0.52916527"
+       height="0.52916527"
+       x="38.941971"
+       y="282.5209"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-quit.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#b3b3b3;fill-opacity:1;stroke-width:0.11333"
+       id="rect292711"
+       width="0.52916527"
+       height="0.52916527"
+       x="38.941971"
+       y="283.05008"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-quit.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#b3b3b3;fill-opacity:1;stroke-width:0.11333"
+       id="rect292713"
+       width="0.52916527"
+       height="0.52916527"
+       x="38.412804"
+       y="283.57925"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-quit.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#999999;fill-opacity:1;stroke-width:0.11333"
+       id="rect292715"
+       width="0.52916527"
+       height="0.52916527"
+       x="37.883636"
+       y="283.57925"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-quit.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#999999;fill-opacity:1;stroke-width:0.11333"
+       id="rect292717"
+       width="0.52916527"
+       height="0.52916527"
+       x="37.354469"
+       y="283.57925"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-quit.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#999999;fill-opacity:1;stroke-width:0.11333"
+       id="rect292719"
+       width="0.52916527"
+       height="0.52916527"
+       x="36.825302"
+       y="283.05008"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-quit.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#999999;fill-opacity:1;stroke-width:0.11333"
+       id="rect292721"
+       width="0.52916527"
+       height="0.52916527"
+       x="36.825302"
+       y="282.5209"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-quit.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#999999;fill-opacity:1;stroke-width:0.11333"
+       id="rect292723"
+       width="0.52916527"
+       height="0.52916527"
+       x="36.825302"
+       y="281.99173"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-quit.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#999999;fill-opacity:1;stroke-width:0.11333"
+       id="rect292725"
+       width="0.52916527"
+       height="0.52916527"
+       x="36.825302"
+       y="281.46255"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-quit.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#b3b3b3;fill-opacity:1;stroke-width:0.11333"
+       id="rect292727"
+       width="0.52916527"
+       height="0.52916527"
+       x="37.354469"
+       y="280.93338"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-quit.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#b3b3b3;fill-opacity:1;stroke-width:0.11333"
+       id="rect292729"
+       width="0.52916527"
+       height="0.52916527"
+       x="37.354469"
+       y="281.46255"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-quit.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#b3b3b3;fill-opacity:1;stroke-width:0.11333"
+       id="rect292731"
+       width="0.52916527"
+       height="0.52916527"
+       x="37.354469"
+       y="281.99173"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-quit.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#b3b3b3;fill-opacity:1;stroke-width:0.11333"
+       id="rect292733"
+       width="0.52916527"
+       height="0.52916527"
+       x="37.354469"
+       y="282.5209"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-quit.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#b3b3b3;fill-opacity:1;stroke-width:0.11333"
+       id="rect292735"
+       width="0.52916527"
+       height="0.52916527"
+       x="37.354469"
+       y="283.05008"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-quit.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#b3b3b3;fill-opacity:1;stroke-width:0.11333"
+       id="rect292737"
+       width="0.52916527"
+       height="0.52916527"
+       x="37.883636"
+       y="283.05008"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-quit.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#b3b3b3;fill-opacity:1;stroke-width:0.11333"
+       id="rect292739"
+       width="0.52916527"
+       height="0.52916527"
+       x="38.412804"
+       y="283.05008"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-quit.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#b3b3b3;fill-opacity:1;stroke-width:0.11333"
+       id="rect292741"
+       width="0.52916527"
+       height="0.52916527"
+       x="38.412804"
+       y="282.5209"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-quit.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#b3b3b3;fill-opacity:1;stroke-width:0.11333"
+       id="rect292743"
+       width="0.52916527"
+       height="0.52916527"
+       x="38.412804"
+       y="281.99173"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-quit.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#b3b3b3;fill-opacity:1;stroke-width:0.11333"
+       id="rect292745"
+       width="0.52916527"
+       height="0.52916527"
+       x="38.412804"
+       y="281.46255"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-quit.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#cccccc;fill-opacity:1;stroke-width:0.11333"
+       id="rect292747"
+       width="0.52916527"
+       height="0.52916527"
+       x="38.412804"
+       y="280.93338"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-quit.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#cccccc;fill-opacity:1;stroke-width:0.11333"
+       id="rect292751"
+       width="0.52916527"
+       height="0.52916527"
+       x="40.000305"
+       y="280.40421"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-quit.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#cccccc;fill-opacity:1;stroke-width:0.11333"
+       id="rect292753"
+       width="0.52916527"
+       height="0.52916527"
+       x="40.529472"
+       y="280.40421"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-quit.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#cccccc;fill-opacity:1;stroke-width:0.11333"
+       id="rect292755"
+       width="0.52916527"
+       height="0.52916527"
+       x="40.529472"
+       y="280.93338"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-quit.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#999999;fill-opacity:1;stroke-width:0.11333"
+       id="rect292757"
+       width="0.52916527"
+       height="0.52916527"
+       x="40.529472"
+       y="281.46255"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-quit.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#999999;fill-opacity:1;stroke-width:0.11333"
+       id="rect292759"
+       width="0.52916527"
+       height="0.52916527"
+       x="40.529472"
+       y="281.99173"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-quit.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#999999;fill-opacity:1;stroke-width:0.11333"
+       id="rect292761"
+       width="0.52916527"
+       height="0.52916527"
+       x="40.529472"
+       y="282.5209"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-quit.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#b3b3b3;fill-opacity:1;stroke-width:0.11333"
+       id="rect292763"
+       width="0.52916527"
+       height="0.52916527"
+       x="40.529472"
+       y="283.05008"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-quit.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#999999;fill-opacity:1;stroke-width:0.11333"
+       id="rect292775"
+       width="0.52916527"
+       height="0.52916527"
+       x="40.000305"
+       y="280.93338"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-quit.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#ececec;fill-opacity:1;stroke-width:0.11333"
+       id="rect292859"
+       width="0.52916527"
+       height="0.52916527"
+       x="41.05864"
+       y="280.40421"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-quit.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#ececec;fill-opacity:1;stroke-width:0.11333"
+       id="rect292861"
+       width="0.52916527"
+       height="0.52916527"
+       x="41.587807"
+       y="280.40421"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-quit.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#ececec;fill-opacity:1;stroke-width:0.11333"
+       id="rect292863"
+       width="0.52916527"
+       height="0.52916527"
+       x="41.587807"
+       y="280.93338"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-quit.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#b3b3b3;fill-opacity:1;stroke-width:0.11333"
+       id="rect292873"
+       width="0.52916527"
+       height="0.52916527"
+       x="41.05864"
+       y="283.57925"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-quit.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#b3b3b3;fill-opacity:1;stroke-width:0.11333"
+       id="rect292875"
+       width="0.52916527"
+       height="0.52916527"
+       x="41.05864"
+       y="283.05008"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-quit.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#b3b3b3;fill-opacity:1;stroke-width:0.11333"
+       id="rect292877"
+       width="0.52916527"
+       height="0.52916527"
+       x="41.05864"
+       y="282.5209"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-quit.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#b3b3b3;fill-opacity:1;stroke-width:0.11333"
+       id="rect292879"
+       width="0.52916527"
+       height="0.52916527"
+       x="41.05864"
+       y="281.99173"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-quit.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#b3b3b3;fill-opacity:1;stroke-width:0.11333"
+       id="rect292881"
+       width="0.52916527"
+       height="0.52916527"
+       x="41.05864"
+       y="281.46255"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-quit.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#cccccc;fill-opacity:1;stroke-width:0.11333"
+       id="rect292883"
+       width="0.52916527"
+       height="0.52916527"
+       x="41.05864"
+       y="280.93338"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-quit.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#999999;fill-opacity:1;stroke-width:0.11333"
+       id="rect293137"
+       width="0.52916527"
+       height="0.52916527"
+       x="40.529472"
+       y="283.57925"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-quit.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#999999;fill-opacity:1;stroke-width:0.11333"
+       id="rect293139"
+       width="0.52916527"
+       height="0.52916527"
+       x="40.000305"
+       y="283.57925"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-quit.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#999999;fill-opacity:1;stroke-width:0.11333"
+       id="rect293141"
+       width="0.52916527"
+       height="0.52916527"
+       x="40.000305"
+       y="283.05008"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-quit.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#cccccc;fill-opacity:1;stroke-width:0.11333"
+       id="rect293143"
+       width="0.52916527"
+       height="0.52916527"
+       x="41.587807"
+       y="283.05008"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-quit.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#cccccc;fill-opacity:1;stroke-width:0.11333"
+       id="rect293145"
+       width="0.52916527"
+       height="0.52916527"
+       x="41.587807"
+       y="283.57925"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-quit.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#b3b3b3;fill-opacity:1;stroke-width:0.11333"
+       id="rect293551"
+       width="0.52916527"
+       height="0.52916527"
+       x="42.646141"
+       y="280.40421"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-quit.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#ececec;fill-opacity:1;stroke-width:0.11333"
+       id="rect293633"
+       width="0.52916527"
+       height="0.52916527"
+       x="44.762806"
+       y="280.40421"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-quit.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#ececec;fill-opacity:1;stroke-width:0.11333"
+       id="rect293635"
+       width="0.52916527"
+       height="0.52916527"
+       x="44.762806"
+       y="280.93338"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-quit.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#b3b3b3;fill-opacity:1;stroke-width:0.11333"
+       id="rect293637"
+       width="0.52916527"
+       height="0.52916527"
+       x="42.646137"
+       y="280.40421"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-quit.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#999999;fill-opacity:1;stroke-width:0.11333"
+       id="rect293639"
+       width="0.52916527"
+       height="0.52916527"
+       x="42.646137"
+       y="280.93338"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-quit.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#cccccc;fill-opacity:1;stroke-width:0.11333"
+       id="rect293641"
+       width="0.52916527"
+       height="0.52916527"
+       x="43.175308"
+       y="280.40421"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-quit.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#b3b3b3;fill-opacity:1;stroke-width:0.11333"
+       id="rect293643"
+       width="0.52916527"
+       height="0.52916527"
+       x="43.175308"
+       y="280.93338"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-quit.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#cccccc;fill-opacity:1;stroke-width:0.11333"
+       id="rect293645"
+       width="0.52916527"
+       height="0.52916527"
+       x="43.704472"
+       y="280.40421"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-quit.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#cccccc;fill-opacity:1;stroke-width:0.11333"
+       id="rect293647"
+       width="0.52916527"
+       height="0.52916527"
+       x="43.704472"
+       y="280.93338"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-quit.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#ececec;fill-opacity:1;stroke-width:0.11333"
+       id="rect293649"
+       width="0.52916527"
+       height="0.52916527"
+       x="44.233639"
+       y="280.40421"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-quit.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#cccccc;fill-opacity:1;stroke-width:0.11333"
+       id="rect293651"
+       width="0.52916527"
+       height="0.52916527"
+       x="44.233639"
+       y="280.93338"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-quit.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#999999;fill-opacity:1;stroke-width:0.11333"
+       id="rect293653"
+       width="0.52916527"
+       height="0.52916527"
+       x="43.175308"
+       y="281.46252"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-quit.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#b3b3b3;fill-opacity:1;stroke-width:0.11333"
+       id="rect293655"
+       width="0.52916527"
+       height="0.52916527"
+       x="43.175308"
+       y="281.9917"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-quit.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#b3b3b3;fill-opacity:1;stroke-width:0.11333"
+       id="rect293657"
+       width="0.52916527"
+       height="0.52916527"
+       x="43.175308"
+       y="282.52087"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-quit.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#b3b3b3;fill-opacity:1;stroke-width:0.11333"
+       id="rect293659"
+       width="0.52916527"
+       height="0.52916527"
+       x="43.175308"
+       y="283.05005"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-quit.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#b3b3b3;fill-opacity:1;stroke-width:0.11333"
+       id="rect293661"
+       width="0.52916527"
+       height="0.52916527"
+       x="43.175308"
+       y="283.57919"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-quit.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#b3b3b3;fill-opacity:1;stroke-width:0.11333"
+       id="rect293663"
+       width="0.52916527"
+       height="0.52916527"
+       x="43.704472"
+       y="281.46252"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-quit.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#999999;fill-opacity:1;stroke-width:0.11333"
+       id="rect293665"
+       width="0.52916527"
+       height="0.52916527"
+       x="43.175308"
+       y="281.9917"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-quit.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#999999;fill-opacity:1;stroke-width:0.11333"
+       id="rect293667"
+       width="0.52916527"
+       height="0.52916527"
+       x="43.175308"
+       y="282.52087"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-quit.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#999999;fill-opacity:1;stroke-width:0.11333"
+       id="rect293669"
+       width="0.52916527"
+       height="0.52916527"
+       x="43.175308"
+       y="283.05005"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-quit.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#999999;fill-opacity:1;stroke-width:0.11333"
+       id="rect293671"
+       width="0.52916527"
+       height="0.52916527"
+       x="43.175308"
+       y="283.57919"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-quit.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#b3b3b3;fill-opacity:1;stroke-width:0.11333"
+       id="rect293673"
+       width="0.52916527"
+       height="0.52916527"
+       x="43.704472"
+       y="281.9917"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-quit.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#b3b3b3;fill-opacity:1;stroke-width:0.11333"
+       id="rect293675"
+       width="0.52916527"
+       height="0.52916527"
+       x="43.704472"
+       y="282.52087"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-quit.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#b3b3b3;fill-opacity:1;stroke-width:0.11333"
+       id="rect293677"
+       width="0.52916527"
+       height="0.52916527"
+       x="43.704472"
+       y="283.05005"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-quit.png"
+       inkscape:export-xdpi="95.99939"
+       inkscape:export-ydpi="95.99939" />
+    <rect
+       style="fill:#b3b3b3;fill-opacity:1;stroke-width:0.11333"
+       id="rect293679"
+       width="0.52916527"
+       height="0.52916527"
+       x="43.704472"
+       y="283.57919"
+       inkscape:export-filename="/home/beghelli/dev/jumpersTime/dist/assets/text-quit.png"
        inkscape:export-xdpi="95.99939"
        inkscape:export-ydpi="95.99939" />
   </g>

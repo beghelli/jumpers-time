@@ -35,11 +35,15 @@ export default class Roll extends Phaser.Scene
 		this.player.depth = 200;
 
 		this.load.image('tiles', 'assets/mapTiles.png');
+		this.load.image('mobileControlLeft', 'assets/mobile-control-left.png');
+		this.load.image('mobileControlRight', 'assets/mobile-control-right.png');
+		this.load.image('mobileControlUp', 'assets/mobile-control-up.png');
   		this.load.tilemapTiledJSON(this.stageData.id, 'assets/tilemaps/' + this.stageData.tilemapJson);
     }
 
     create()
     {
+		this.createMobileControls();
 		this.sound.stopAll();
 		this.playerFinished = false;
 		this.playerStarted = false;
@@ -155,6 +159,35 @@ export default class Roll extends Phaser.Scene
 		const body = this.player.body as Phaser.Physics.Arcade.Body;
 		this.player.setMaxVelocity(this.player.maxVelocityReference.x * 3, this.player.maxVelocityReference.y);
 		this.player.setVelocityX(body.maxVelocity.x);
+	}
+
+	createMobileControls()
+	{
+		if (! this.sys.game.device.os.desktop)
+		{
+			const controlLeft = this.add.image(50, this.sys.game.canvas.height - 50, 'mobileControlLeft');
+			controlLeft.setDepth(1000);
+			controlLeft.setScrollFactor(0);
+			const controlRight = this.add.image(controlLeft.x + 75, controlLeft.y, 'mobileControlRight');
+			controlRight.setDepth(1000);
+			controlRight.setScrollFactor(0);
+			const controlUp = this.add.image(this.sys.game.canvas.width - 50, controlLeft.y, 'mobileControlUp');
+			controlUp.setDepth(1000);
+			controlUp.setScrollFactor(0);
+
+			controlLeft.setInteractive();
+			controlRight.setInteractive();
+			controlUp.setInteractive();
+
+			controlLeft.on('pointerover', () => {this.cursors.left.isDown = true; }, this);
+			controlLeft.on('pointerout', () => {this.cursors.left.isDown = false; }, this);
+
+			controlRight.on('pointerover', () => {this.cursors.right.isDown = true; }, this);
+			controlRight.on('pointerout', () => {this.cursors.right.isDown = false; }, this);
+
+			controlUp.on('pointerover', () => {this.cursors.up.isDown = true; this.cursors.up.isUp = false;}, this);
+			controlUp.on('pointerout', () => {this.cursors.up.isDown = false; this.cursors.up.isUp = true;}, this);
+		}
 	}
 
 }

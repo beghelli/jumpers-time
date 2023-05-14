@@ -59,8 +59,8 @@
             "scale": 1,
             "selectedLayer": 2,
             "viewCenter": {
-                "x": 501,
-                "y": 680.5
+                "x": 460,
+                "y": 370.5
             }
         },
         "tiles/level2.tmx#forest": {

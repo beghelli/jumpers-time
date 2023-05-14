@@ -168,7 +168,7 @@ export default class Roll extends Phaser.Scene
 	{
 		if (! this.sys.game.device.os.desktop)
 		{
-			const controlLeft = this.add.image(50, this.sys.game.canvas.height - 50, 'mobileControlLeft');
+			const controlLeft = this.add.image(50, this.sys.game.canvas.height - 65, 'mobileControlLeft');
 			controlLeft.setDepth(1000);
 			controlLeft.setScrollFactor(0);
 			const controlRight = this.add.image(controlLeft.x + 75, controlLeft.y, 'mobileControlRight');

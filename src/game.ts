@@ -30,6 +30,9 @@ const config = {
 		width           : 1066,
 		height          : 600,
 	},
+	input: {
+		activePointers: 3,
+	},
 };
 
 new Phaser.Game(config);
